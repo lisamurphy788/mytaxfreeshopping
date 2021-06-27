@@ -89,11 +89,28 @@ div {
     max-width: 50%;
     font-size: xxx-large;
 }
+.slogan-bottom {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.benefits {
+    display: block;
+    float: right;
+    margin: 0;
+    padding: inherit;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #5e17eb;
+}
+
 /* footer and social media icons */
 footer {
     color: #ffff;
     background-color: #5E17EB;
     height: 20vh;
+    margin: auto;
+    padding: 50px;
+    display: block;
 }
 footer ul {
     margin: 0;
@@ -102,4 +119,8 @@ footer ul {
 }
 footer ul li {
     display: inline-block;
+}
+.social-media {
+    text-align: center;
+
 }

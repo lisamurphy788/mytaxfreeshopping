@@ -94,13 +94,13 @@ div {
     font-weight: bold;
 }
 .benefits {
-    display: block;
-    float: right;
-    margin: 0;
-    padding: inherit;
+  
+    float: left;
     border-width: 2px;
     border-style: dashed;
     border-color: #5e17eb;
+    border-radius: 80%;
+    padding: 40px 40px
 }
 
 /* footer and social media icons */
@@ -119,6 +119,10 @@ footer ul {
 }
 footer ul li {
     display: inline-block;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-size: 25px;
 }
 .social-media {
     text-align: center;

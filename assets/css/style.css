@@ -11,6 +11,19 @@ body {
     margin: 0 auto;
     
 }
+/* how it works*/ /*using flexbox*/
+
+.flex-container {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+    border: 2px solid y #5E17Eb;
+    
+}
+.flex-child:first-child {
+    margin-right: 20px;
+}
 /* header logo and nav bar*/
 header {
     background-color: #5E17EB;
@@ -65,12 +78,21 @@ div {
     font-weight: 400;
     padding: 20px 20px;
     text-transform: lowercase;
+    font-size: large;
 }
 
-
+.aboutimage {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/aboutus.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .hero-image {
     height: 70vh;
-    width: 100vw;
+    width: 100%;
     background-image: url('../images/hero\ image.webp');
     background-attachment: fixed;
     background-position: right;
@@ -100,9 +122,8 @@ div {
 footer {
     color: #ffff;
     background-color: #5E17EB;
-    height: 20vh;
     margin: auto;
-    padding: 50px;
+    padding: 20px;
     display: block;
 }
 footer ul {

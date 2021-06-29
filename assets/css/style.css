@@ -109,13 +109,15 @@ div {
     font-weight: bold;
 }
 .benefits {
-  
-    float: left;
+    list-style: none;
     border-width: 2px;
     border-style: dashed;
     border-color: #5e17eb;
-    border-radius: 80%;
     padding: 40px 40px
+    
+}
+.howitworksimage {
+    background-image: url(../images/howitworks3.webp.jpg);
 }
 
 /* footer and social media icons */

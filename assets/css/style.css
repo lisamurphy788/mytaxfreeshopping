@@ -151,9 +151,8 @@ footer a:hover {
     }
 /* faqs*/
 .box {
-    width: 500px;
+    width: 100%;
     margin: 50px auto;
-    background: rgb(238, 237, 237);
     border-radius: 7px;
     box-shadow: 1px 2px 4px rgba(247, 221, 244, 0.988);
 
@@ -168,4 +167,14 @@ footer a:hover {
 .faqs {
     padding: 10px 20px;
     margin-top: 20px;
+}
+/* airport locations*/
+.airports {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.dublin .shannon .cork {
+    
 }

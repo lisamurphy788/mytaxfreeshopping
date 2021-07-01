@@ -117,9 +117,14 @@ div {
     
 }
 .howitworksimage {
-    background-image: url(../images/howitworks3.webp.jpg);
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/imageforfaq.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 /* footer and social media icons */
 footer {
     color: #ffff;
@@ -149,32 +154,47 @@ footer ul li {
 footer a:hover {
         color: rgba(247, 84, 9, 0.979) ;
     }
-/* faqs*/
-.box {
+/* faqs page*/
+.imageforfaq {
+    height: 50vh;
     width: 100%;
-    margin: 50px auto;
-    border-radius: 7px;
-    box-shadow: 1px 2px 4px rgba(247, 221, 244, 0.988);
+    background-image: url(../images/faqimage.jpeg);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box {
+    display: flex;
 
 }
-.box .heading {
+.box .headings {
     background: #5E17EB;
     border-radius: 7px 7px 0px 0px;
     padding: 10px;
-    color: rgba(243, 224, 241, 0.932);
+    color: #fff;
     text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+summary {
+    font-weight: bolder;
+}
+.text {
+    font-style: italic;
 }
 .faqs {
-    padding: 10px 20px;
-    margin-top: 20px;
+    padding: 5px 20px;
+    margin-top: 5px;
 }
 /* airport locations*/
 .airports {
     display: flex;
-    text-align: center;
-    width: auto;
-    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 .dublin .shannon .cork {
+    flex: 1;
+    flex-basis: content;
     
 }

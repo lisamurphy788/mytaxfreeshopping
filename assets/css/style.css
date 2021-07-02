@@ -222,6 +222,8 @@ hr {
 .details-list > li > label + *,
 .country-list {
   flex: 1 0 220px;
+  padding: 10px;
+  margin: 15px;
 }
 .details-list li button {
     margin-left: auto;

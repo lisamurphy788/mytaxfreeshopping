@@ -68,6 +68,9 @@ nav ul li a {
 nav a:hover {
     color: rgba(247, 84, 9, 0.979) ;
 }
+.active {
+    border-bottom: 1px solid black;
+}
 
 /* sections and divs */
 
@@ -197,12 +200,14 @@ hr {
 .airports {
     display: flex;
   line-height: 1.5;
+
     
 }
 
 .dublin .shannon .cork {
     flex: 1;
     flex-basis: content;
+    
     
 }
 /* contact us section */

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Roboto&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 body {
     margin: 0;
     background-color: #ffff;
@@ -15,6 +19,7 @@ body {
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
 }
 .flex-child {
     flex: 1;
@@ -26,8 +31,11 @@ body {
 }
 /* header logo and nav bar*/
 header {
+    display: flex;
+   flex-wrap: wrap;
     background-color: #5E17EB;
-    height: 150px;
+    height: 200px;
+    width: 100%;
 }
 header::after {
     content: '';
@@ -95,30 +103,62 @@ div {
     background-size: cover;
 }
 .hero-image {
-    height: 70vh;
+    height: 600px;
     width: 100%;
     background-image: url('../images/hero\ image.webp');
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+/* animation for hero image*/
+animation-name: hero-zoom;
+animation-duration: 3s;
+animation-fill-mode: both;
+
+}
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 .slogan {
-    max-height: 20%;
-    max-width: 50%;
-    font-size: xxx-large;
+    height: 500px;
+    width: 50%;
+    font-size: xx-large;
+    margin-left: 100px;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 30px;
+    right: 150px;
+    
 }
 .slogan-bottom {
     font-size: xx-large;
     font-weight: bold;
+    height: 300px;
+    width: 50%;
+    margin-left: 100px;
+    position: absolute;
 }
 .benefits {
-    list-style: none;
-    border-width: 2px;
-    border-style: dashed;
-    border-color: #5e17eb;
-    padding: 40px 40px
-    
+    display: flex;
+    flex-wrap: wrap;
+}
+.benefits1, .benefits2, .benefits3, .benefits4, .benefits5, .benefits6 {
+    width: 75px;
+    height: 75px;
+    margin: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(172,23,235,1) 100%);
 }
 .howitworksimage {
     height: 50vh;
@@ -136,6 +176,9 @@ footer {
     margin: auto;
     padding: 20px;
     display: block;
+    width: 100%;
+    height: 150px;
+    padding-top: 75px
 }
 footer ul {
     margin: 0;
@@ -203,6 +246,7 @@ hr {
 .airports {
     display: flex;
   line-height: 1.5;
+  flex-wrap: wrap;
 
     
 }
@@ -214,12 +258,23 @@ hr {
     
 }
 /* contact us section */
+.contact-us {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+}
+.our-details {
+float: right;
 
+}
 .details-list li, .country-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: rgb(253, 243, 253);
+    background: rgb(246, 247, 248);
+    
 }
 .details-list > li > label,
 .country-list li p {
@@ -247,3 +302,20 @@ hr {
     width: 100px;
     width: 50%; 
   }
+  @media screen and (max-width: 1062px) {
+    nav li {
+        display: inline-block;
+        margin-left: 20px;
+        padding-top: 50px;
+        padding-right: 20px;
+        font-size: 25px;
+        
+        position: relative;
+    }
+}
+@media screen and (max-width: 850px)  {
+    nav li {
+      display: table-header-group;
+      font-size: 15px;
+    }
+}

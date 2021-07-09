@@ -20,6 +20,7 @@ body {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .flex-child {
     flex: 1;
@@ -91,6 +92,7 @@ div {
     text-transform: lowercase;
     font-size: large;
     justify-content: right;
+    line-height: 1.5;
 }
 
 .aboutimage {
@@ -262,18 +264,31 @@ hr {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-  
     
+}
+.contact-header {
+    align-items: center;
+}
+.contact-us-form {
+    padding: 10px;;
+    margin: 30px;
+    float: left;
+    border: 2px dashed #5E17Eb;
 }
 .our-details {
 float: right;
+line-height: 1.5rem;
+background: radial-gradient(circle, rgb(244, 245, 252) 0%, rgb(244, 219, 255) 100%); 
+margin: 30px;
+padding: 10px;
+border: 2px dashed #5e17eb
 
 }
 .details-list li, .country-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: rgb(246, 247, 248);
+    background: radial-gradient(circle, rgb(244, 245, 252) 0%, rgb(244, 219, 255) 100%); 
    
     
 }

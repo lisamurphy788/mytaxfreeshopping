@@ -52,27 +52,31 @@ My wireframes can be found here ######
  ---
  ## Features
  ### Existing Features
- **The header and footer**
+ #### **The header and footer**
  - Are both present throughout all the pages. 
  - Have the same background color throughout. 
- **The Header Includes**
+
+ #### **The Header Includes**
  - The my tax free shopping logo - this ensures the user gets familiar with the brand. 
  - The navigation bar - this allows the user to navigate through the different sections of the site easily. 
+
  # INSERT IMAGE HERE
- **The Footer Includes**
+
+ #### **The Footer Includes**
  - Social media links
  # INSERT IMAGE HERE
- **The Homepage**
+
+ #### **The Homepage**
  The homepage/landing page includes an image that has some animation. It zooms slightly on landing.
  It also includes the main slogan/messaging. 
  # INSERT IMAGE HERE
- **The about page**
+ #### **The about page**
  # INSERT IMAGE HERE
- **How it works page**
+ #### **How it works page**
  # INSERT IMAGE HERE
- **FAQ page**
+ #### **FAQ page**
  # INSERT IMAGE HERE
- **Contact**
+ #### **Contact**
  # INSERT IMAGE HERE
- **Thank you page**
+#### **Thank you page**
  # INSERT IMAGE HERE

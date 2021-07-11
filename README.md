@@ -1,3 +1,4 @@
+![logo of my tax free shopping](mytaxfreeshoppingfinalresized.png)
 # my tax free shopping
 
 ![my tax free shopping] am i responsive #######

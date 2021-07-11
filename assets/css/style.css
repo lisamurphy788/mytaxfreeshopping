@@ -23,6 +23,7 @@ body {
     flex-direction: column;
     line-height: 1.5;
 }
+/*
 .flex-child {
     flex: 1;
     border: 2px solid y #5E17Eb;
@@ -30,8 +31,11 @@ body {
 }
 .flex-child:first-child {
     margin-right: 20px;
+    margin-left: 30px;
 }
+    
 /* header logo and nav bar*/
+
 header {
     display: flex;
    flex-wrap: wrap;
@@ -86,13 +90,14 @@ nav a:hover {
 
 section
 
-div {
+.div-text {
     color: #5E17EB ;
     font-weight: 400;
     text-transform: lowercase;
     font-size: large;
     justify-content: right;
-    line-height: 1.5;
+    line-height: 2;
+    margin-left: 30px;
 }
 
 .aboutimage {
@@ -282,7 +287,6 @@ hr {
 }
 .contact-us-heading {
     width: 400px;
-    background-color: aliceblue;
     margin: auto;
     margin-top: 40px;
     }
@@ -344,11 +348,11 @@ margin: 15px;
     width: 50%; 
   }
   .thank-you-image {
-      background-image: url(../images/thankyou.webp.jpg);
+      background-image: url(../images/thankyou.webp.png);
+      font-size: x-large;
       height: 100vh;
-      width: 100%;
       color: #f2f2f2;
-      padding: 100px 100px;
+      padding: 100px 200px;
       
   }
   @media screen and (max-width: 1040px) {
@@ -371,75 +375,93 @@ margin: 15px;
       display: table-header-group;
       font-size: 20px;
       width: 100%;
-    }
+        }
     header footer {
-        height: 150px;
+        height: 200px;
       
-    }
+        }
+    .contact-us-heading {
+        margin: auto;
+        margin-top: 40px;
+        margin-left: 10px;
+        }
 }
 @media screen and (max-width: 600px)  {
     nav ul {
         margin: 30px;
         padding: 30px;
-    }  
+         }  
     nav  li {
           display: table-header-group;
           font-size: 15px;
           padding: 20px;
          
-        }
+         }
  
-        header footer {
-            height: 150px;
+    header  {
+            height: 150pxpx;
           
         }
-        .hero-image {
+    footer {
+        height: 60px;
+    }
+    .hero-image {
             height: 100vh;
             width: 100%;
             overflow: hidden;
         }
-        .slogan {
+    .slogan {
             width: 50%;
             font-size: large;
             position: absolute;
             padding-top: 70px;
         }
-        .slogan-bottom {
+    .slogan-bottom {
                 font-size: large;
                 font-weight: bold;
                 margin-left: 100px;
                 position: absolute;
             }
+    .contact-us-heading {
+                margin: auto;
+                margin-top: 40px;
+                margin-left: 10px;
+        }
     }
-    @media screen and (max-width: 360px)  {
+@media screen and (max-width: 320px)  {
       
         nav li {
               display: table-header-group;
-              font-size: 10px;
-              padding: 15px;
-             
+              font-size: 15px;
+              padding: 10px;
             }
      
-            header footer {
+        header, footer {
                 height: 150px;
               
             }
-            .hero-image {
+        .hero-image {
                 height: 100vh;
                 width: 100%;
                 overflow: hidden;
             }
-            .slogan {
+        .slogan {
                 width: 50%;
                 font-size: large;
                 /* margin-left: 100px; */
                 position: absolute;
                 padding-top: 70px;
             }
-            .slogan-bottom {
+        .slogan-bottom {
                 font-size: large;
                 font-weight: bold;
                 margin-left: 100px;
                 position: absolute;
             }
+        .contact-us-heading {
+               
+                margin: auto;
+                margin-top: 40px;
+                margin-left: 10px;
         }
+    }

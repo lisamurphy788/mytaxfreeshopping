@@ -37,6 +37,7 @@ This website is for all potential customers who are non-EU tourists/travelers.
 - I used Monterrat for my fonts from Google fonts as i felt it was clear, relaxed and read very well. 
 - I also used san-serif as a fall back in the event of font not supported. 
 - I used all lowercase from a design perspective as it gave a much more relaxed view to a customer. Most of the corporate websites that work for the retailer instead of the customer have corporate websites. I wanted my tax free shopping to be simple, easy and customer focused. 
+- I used a link height of 2 to make it easy to read. 
  #### Colors
 - The main color throughout the website is a purple #5E17EB. I used the color picker from the logo i created to find the #5E17EB. I used css gradient to create some nice circle gradient.
  #### Images
@@ -50,5 +51,28 @@ My wireframes can be found here ######
 | Link here | Link here | Link here |
  ---
  ## Features
-
  ### Existing Features
+ **The header and footer**
+ - Are both present throughout all the pages. 
+ - Have the same background color throughout. 
+ **The Header Includes**
+ - The my tax free shopping logo - this ensures the user gets familiar with the brand. 
+ - The navigation bar - this allows the user to navigate through the different sections of the site easily. 
+ # INSERT IMAGE HERE
+ **The Footer Includes**
+ - Social media links
+ # INSERT IMAGE HERE
+ **The Homepage**
+ The homepage/landing page includes an image that has some animation. It zooms slightly on landing.
+ It also includes the main slogan/messaging. 
+ # INSERT IMAGE HERE
+ **The about page**
+ # INSERT IMAGE HERE
+ **How it works page**
+ # INSERT IMAGE HERE
+ **FAQ page**
+ # INSERT IMAGE HERE
+ **Contact**
+ # INSERT IMAGE HERE
+ **Thank you page**
+ # INSERT IMAGE HERE

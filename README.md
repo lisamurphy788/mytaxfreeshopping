@@ -44,6 +44,14 @@ This website is for all potential customers who are non-EU tourists/travelers.
 - I created mytaxfreeshopping logo from Canva. 
 - All of the images used were from pixels and i they are mostly airport setting images to keep with the theme of travel. 
 - Any icons i used were taken from fontawesome. 
+- List of images:
+1. Hero image - used on the homepage. Image of a large shopping centre showing people in all the different areas. The image is clean and crisp. It is light colors so i could use a dark text with it for good contract. 
+2. About image - used on the about page. Image of a guy in an airport. The majority of what the user needs to do is in the airport so a lot of my images come from there. The image shows the man from a distance by the windows on his phone. We want our customers like this in a calm area of the airport completing their claim from their phone. 
+3. How it works includes only icons as the main message needs to be simple and clear. 
+4. FAQ image - two airoplanes in the sky. Good use of color from the sky that blends well agains the purple. 
+5. Contact image - The cliffs of Moher image is used a lot in marketing and advertising and the majority of tourists visiting ireland would visit here so they would have some recognition. 
+
+
 ### Wireframes 
 My wireframes can be found here ######
 | Desktop   | Tabet     | Mobile    |
@@ -71,12 +79,25 @@ My wireframes can be found here ######
  It also includes the main slogan/messaging. 
  # INSERT IMAGE HERE
  #### **The about page**
+ The about page gives the user information about how tax free shopping in ireland works and what the rules are. It also includes an image at the top. 
  # INSERT IMAGE HERE
  #### **How it works page**
+ The how it works page includes information on what a customer needs to do in order to shop tax free. There were some icons taken from fontawesome to display the actions. 
+ It also gives the benefits of using my tax free shopping to get a refund. Some background gradial css color was used here. 
  # INSERT IMAGE HERE
  #### **FAQ page**
+ The faq page includes a list of some of the main questions a tourist might have when trying to claim a refund. 
+ The Faq page also includes a list of the three main irish airports along with some google maps. 
  # INSERT IMAGE HERE
  #### **Contact**
+ The contact page includes a image of the cliffs of moher it is used a lot in marketing ireland as a destination. 
+ The main item in this page is the contact form. This allows the user to send through a message to my tax free directly when they have any issues or questions. 
+ The page also includes the actual address, phone and email for the company so the customer can contact them directly if they wish. 
  # INSERT IMAGE HERE
 #### **Thank you page**
+This page appears when a customer successfully submits the contact form. It includes some text confirming they have successfully submitted and a background image. 
  # INSERT IMAGE HERE
+ ### Future Features
+ - Add a mobile app to include geo fencing.
+ - Once the form has been submitted the user should get a confirmation email. 
+ - Chat option for users

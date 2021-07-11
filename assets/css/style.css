@@ -275,17 +275,21 @@ hr {
     background-size: cover;
 
 }
-.contact-header {
-    align-items: center;
+.contact-us-heading {
+    width: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 40px;
+    }
+
 }
 .contact-us-form {
     width: 400px;
     padding: 10px;;
     margin: 30px;
     float: left;
-    border:solid;
-    box-shadow: #5E17Eb;
-    order: 2;
+    border: solid;
+
 }
 .our-details {
 width: 400px;
@@ -297,7 +301,7 @@ border: solid;
 box-shadow: #5E17Eb;
 padding: 10px;
 margin: 15px;
-order: 3;
+
 }
 
 .details-list li, .country-list {
@@ -324,7 +328,7 @@ order: 3;
     margin-left: auto;
     padding: 8px 16px;
     border: none;
-    background: #333;
+    background: #5E17Eb;
     color: #f2f2f2;
     text-transform: uppercase;
     letter-spacing: .09em;

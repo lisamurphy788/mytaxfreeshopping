@@ -15,24 +15,6 @@ body {
     margin: 0 auto;
     
 }
-/* how it works*/ /*using flexbox*/
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    line-height: 1.5;
-}
-/*
-.flex-child {
-    flex: 1;
-    border: 2px solid y #5E17Eb;
-    
-}
-.flex-child:first-child {
-    margin-right: 20px;
-    margin-left: 30px;
-}
     
 /* header logo and nav bar*/
 
@@ -100,15 +82,8 @@ section
     margin-left: 30px;
 }
 
-.aboutimage {
-    height: 50vh;
-    width: 100%;
-    background-image: url(../images/aboutus.jpg);
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* Homepage/landing page*/
+
 .hero-image {
     height: 100vh;
     width: 100%;
@@ -156,6 +131,34 @@ animation-fill-mode: both;
     /*position: absolute;*/
     color: #5E17Eb;
 }
+/* About page */
+
+.aboutimage {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/aboutus.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* How it works flexbox*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 1.5;
+}
+.howitworksimage {
+    height: 60vh;
+    width: 100%;
+    background-image: url(../images/howitworks2.webp.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .benefits {
     display: flex;
     flex-wrap: wrap;
@@ -171,15 +174,7 @@ animation-fill-mode: both;
    /* border-radius: 50%;*/
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(172,23,235,1) 100%);
 }
-.howitworksimage {
-    height: 60vh;
-    width: 100%;
-    background-image: url(../images/howitworks2.webp.jpg);
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 /* footer and social media icons */
 footer {
     color: #ffff;
@@ -215,6 +210,12 @@ a {
 footer a:hover {
         color: rgba(247, 84, 9, 0.979) ;
     }
+
+hr {
+    color: #5E17EB;
+    margin: 0;
+}
+
 /* faqs page*/
 .imageforfaq {
     height: 50vh;
@@ -249,11 +250,7 @@ summary {
     margin-top: 5px;
     line-height: 3;
 }
-hr {
-    color: #5E17EB;
-    margin: 0;
-}
-/* airport locations*/
+/* How faq's - airport locations*/
 .leaving-ireland-heading {
     margin: auto;
     margin-top: 20px;
@@ -279,8 +276,11 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
+
+/* hero image*/
+
 .contact-us-image {
     width: 100%;
     height: 50vh;
@@ -291,12 +291,15 @@ hr {
     background-size: cover;
 
 }
+/* Heading in contact page*/
+
 .contact-us-heading {
     width: 400px;
     margin: auto;
     margin-top: 40px;
     }
 
+/* contact us form on contact page*/
 
 .contact-us-form {
     width: 400px;
@@ -304,18 +307,6 @@ hr {
     margin: 30px;
     float: left;
     border: solid;
-
-}
-.our-details {
-width: 400px;
-line-height: 1.5rem;
-background: #fffbfb;
-margin: 30px;
-padding: 10px;
-border: solid;
-box-shadow: #5E17Eb;
-padding: 10px;
-margin: 15px;
 
 }
 
@@ -353,6 +344,20 @@ margin: 15px;
     width: 100px;
     width: 50%; 
   }
+  .our-details {
+    width: 400px;
+    line-height: 1.5rem;
+    background: #fffbfb;
+    margin: 30px;
+    padding: 10px;
+    border: solid;
+    box-shadow: #5E17Eb;
+    padding: 10px;
+    margin: 15px;
+    
+    }
+  /* Thank you page on form submitted */
+
   .thank-you-image {
       background-image: url(../images/thankyou.webp.png);
       font-size: x-large;
@@ -362,6 +367,9 @@ margin: 15px;
       
   }
   @media screen and (max-width: 1040px) {
+    
+    /* Navigation */
+
     nav li {
         display: inline-block;
         margin-left: 20px;
@@ -373,6 +381,8 @@ margin: 15px;
     }
 }
 @media screen and (max-width: 850px)  {
+    /* Header/footer and navigation styling*/
+
     nav ul {
         margin: 30px;
         padding: 30px;
@@ -389,6 +399,7 @@ margin: 15px;
     footer {
         height: 100px;
     }
+    /* contact us section */
     .contact-us-heading {
         margin: auto;
         margin-top: 40px;
@@ -396,6 +407,9 @@ margin: 15px;
         }
 }
 @media screen and (max-width: 770px)  {
+
+    /* Header/footer and navigation styling */
+
     nav ul {
         margin: 30px;
         padding: 30px;
@@ -414,6 +428,8 @@ margin: 15px;
     footer {
         height: 60px;
     }
+    /* Homepage/landing page styling */
+
     .hero-image {
             height: 100vh;
             width: 100%;
@@ -438,6 +454,7 @@ margin: 15px;
                 margin-left: 100px;
                 position: absolute;
             }
+    /* Contact us page */
     .contact-us-heading {
                 margin: auto;
                 margin-top: 40px;
@@ -445,7 +462,8 @@ margin: 15px;
         }
     }
 @media screen and (max-width: 420px)  {
-      
+    /* Header/footer styling */
+
        nav li {
               display: table-header-group;
               font-size: 15px;
@@ -459,6 +477,8 @@ margin: 15px;
         footer {
             height: 100px;
         }
+    /* Home page styling*/
+
         .hero-image {
                 height: 100vh;
                 width: 100%;
@@ -485,7 +505,7 @@ margin: 15px;
         }
     }
     @media screen and (max-width: 370px)  {
-      
+     /* Header and navigation styling */ 
          nav li {
                display: table-header-group;
                font-size: 15px;
@@ -501,7 +521,7 @@ margin: 15px;
                  height: 220px;
                
              }
-         
+    /* Home Landing page styling*/
          .hero-image {
                  height: 100vh;
                  width: 100%;
@@ -521,6 +541,7 @@ margin: 15px;
                  margin-left: 100px;
                  position: absolute;
              }
+         /* Contact us section */
          .contact-us-heading {
                 width: 300px;
                  margin: auto;

@@ -117,6 +117,6 @@ Only one branch has been used for this project.
 
 
  ## Credits 
-Most of this text from this site came from the process that is currently operates in. 
+Most of this text from this site came from the process that it currently operates in. 
 The rules in which the system operates are available on the irish revenues website. 
 [Revenues Website](https://www.revenue.ie/en/vat/retail-export-scheme/vat-refund-agent.aspx)

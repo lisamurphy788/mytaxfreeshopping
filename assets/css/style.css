@@ -157,18 +157,20 @@ animation-fill-mode: both;
     flex-wrap: wrap;
 }
 .benefits1, .benefits2, .benefits3, .benefits4, .benefits5, .benefits6 {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     margin: 50px;
     text-align: center;
+    justify-content: center;
+
     color: white;
-    border-radius: 50%;
+   /* border-radius: 50%;*/
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(172,23,235,1) 100%);
 }
 .howitworksimage {
-    height: 50vh;
+    height: 60vh;
     width: 100%;
-    background-image: url(../images/imageforfaq.jpg);
+    background-image: url(../images/howitworks2.webp.jpg);
     background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;

@@ -116,6 +116,7 @@ This project is hosted in GitHub Pages
 Only one branch has been used for this project.
 
 
- ## credits 
+ ## Credits 
 Most of this text from this site came from the process that is currently operates in. 
-[The rules in which the system operates are available on the Revenues Website](https://www.revenue.ie/en/vat/retail-export-scheme/vat-refund-agent.aspx)
+The rules in which the system operates are available on the irish revenues website. 
+[Revenues Website](https://www.revenue.ie/en/vat/retail-export-scheme/vat-refund-agent.aspx)

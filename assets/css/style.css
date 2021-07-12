@@ -137,7 +137,7 @@ animation-fill-mode: both;
     height: 50vh;
     width: 100%;
     background-image: url(../images/aboutus.jpg);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +154,7 @@ animation-fill-mode: both;
     height: 60vh;
     width: 100%;
     background-image: url(../images/howitworks2.webp.jpg);
-    background-attachment: fixed;
+   /* background-attachment: fixed;*/
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,7 +221,7 @@ hr {
     height: 50vh;
     width: 100%;
     background-image: url(../images/faqimage.jpeg);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,7 +285,7 @@ summary {
     width: 100%;
     height: 50vh;
     background-image: url(../images/contactusimage3.webp.jpg);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -375,7 +375,7 @@ summary {
         margin-left: 20px;
         padding-top: 50px;
         padding-right: 20px;
-        font-size: 25px;
+        font-size: 30px;
         
         position: relative;
     }
@@ -389,7 +389,7 @@ summary {
     }
     nav li {
       display: table-header-group;
-      font-size: 20px;
+      font-size: 30px;
       width: 100%;
         }
     header  {
@@ -416,13 +416,13 @@ summary {
          }  
     nav  li {
           display: table-header-group;
-          font-size: 15px;
+          font-size: 25px;
           padding: 20px;
          
          }
  
     header  {
-            height: 250pxpx;
+            height: 275px;
           
         }
     footer {
@@ -466,7 +466,7 @@ summary {
 
        nav li {
               display: table-header-group;
-              font-size: 15px;
+              font-size: 20px;
               padding: 10px;
             }
      
@@ -504,7 +504,7 @@ summary {
                 margin-left: 10px;
         }
     }
-    @media screen and (max-width: 370px)  {
+    @media screen and (max-width: 376px)  {
      /* Header and navigation styling */ 
          nav li {
                display: table-header-group;
@@ -541,6 +541,21 @@ summary {
                  margin-left: 100px;
                  position: absolute;
              }
+             /* about section */
+             .aboutimage {
+                height: 50vh;
+                width: 100%;
+                background-image: url(../images/aboutus.jpg);
+                background-size: cover;
+            }
+             /* how it works section*/
+             .howitworksimage {
+                height: 60vh;
+                min-width: 320px;
+                width: 100%;
+                background-image: url(../images/howitworks2.webp.jpg);
+                background-size: cover;
+            }
          /* Contact us section */
          .contact-us-heading {
                 width: 300px;

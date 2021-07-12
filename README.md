@@ -101,3 +101,21 @@ This page appears when a customer successfully submits the contact form. It incl
  - Add a mobile app to include geo fencing.
  - Once the form has been submitted the user should get a confirmation email. 
  - Chat option for users
+ ## Testing
+ ## Deployment
+ **To deploy the project**
+
+This project is hosted in GitHub Pages
+
+1. On the menu on the top of the project’s repository on GitHub select **Settings**.
+2. Scroll down to the GitHub **Pages** section.
+3. Inside that section, click on the drop-down menu under **Source** and select **Master Branch**.
+4. The page refreshes automatically and the website is now deployed.
+5. The link to the webpage is just in the GitHub **Pages** section down below.
+
+Only one branch has been used for this project.
+
+
+ ## credits 
+Most of this text from this site came from the process that is currently operates in. 
+[The rules in which the system operates are available on the Revenues Website](https://www.revenue.ie/en/vat/retail-export-scheme/vat-refund-agent.aspx)

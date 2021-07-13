@@ -83,39 +83,76 @@ The wireframes were designed using figma. My wireframes can be found here:
  The homepage/landing page includes an image that has some animation. It zooms slightly on landing.
  It also includes the main slogan/messaging. 
  
-![imageoflandingpage](readmeimages/homelandingpage.PNG)
+ <details>
+<summary>Image of Home page</summary>
+![imageoflandingpage](readmeimages/homelandingpage.PNG)</details>
 
  #### **The about page**
  The about page gives the user information about how tax free shopping in ireland works and what the rules are. It also includes an image at the top. 
  
-![imageofaboutpage](readmeimages/aboutimage.PNG)
+ <details>
+<summary>Image of About page</summary>
 
- #### **How it works page**
+![imageofaboutpage](readmeimages/aboutimage.PNG)</details>
+
+ ### **How it works page**
  The how it works page includes information on what a customer needs to do in order to shop tax free. There were some icons taken from fontawesome to display the actions. 
  It also gives the benefits of using my tax free shopping to get a refund. Some background gradial css color was used here. 
  
-#### Top section of How it works
-![howitworkstop](readmeimages/howitworkstoptext.PNG)
+### Top section of How it works
+<details>
+<summary>How it works page</summary>
 
-#### Image and bottom sections
-![howitworksbottom](readmeimages/imageandbottomhowitworks.PNG)
+![imageofhowitworkstop](readmeimages/howitworkstoptext.PNG)</details>
+
+### Bottom Image and bottom section of how it works
+
+<details>
+<summary>How it works page</summary>
+
+![howitworksbottom](readmeimages/imageandbottomhowitworks.PNG)</details>
 
  ### **FAQ page**
- The faq page includes a list of some of the main questions a tourist might have when trying to claim a refund. 
+ The faq page includes a list of some of the main questions a tourist might have when trying to claim a refund. I used a details and summary here to display the Q&A so the page wouldn't be to long.
+
+<details>
+<summary>FAQ page</summary>
+
+![imageoffaqtop](readmeimages/imageoffaqpagetop.PNG)</details>
+
  The Faq page also includes a list of the three main irish airports along with some google maps. 
- # INSERT IMAGE HERE
+ <details>
+ <summary>List of Irish airports section</summary>
+
+![imageofairportsbottom](readmeimages/imageoffaqbottom.PNG)</details>
+
+
  ### **Contact**
  The contact page includes a image of the cliffs of moher it is used a lot in marketing ireland as a destination. 
  The main item in this page is the contact form. This allows the user to send through a message to my tax free directly when they have any issues or questions. 
  The page also includes the actual address, phone and email for the company so the customer can contact them directly if they wish. 
- # INSERT IMAGE HERE
-#### **Thank you page**
+
+<details>
+ <summary>Contact us page</summary>
+
+![imageofcontactuspage](readmeimages/contactusimage.PNG)</details>
+ 
+### **Thank you page**
 This page appears when a customer successfully submits the contact form. It includes some text confirming they have successfully submitted and a background image. 
- # INSERT IMAGE HERE
+<details>
+ <summary>Thank you page</summary>
+
+![thankyoupageimage](readmeimages/thankyouimage.PNG)</details>
+ 
+
+
  ### Future Features
  - Add a mobile app to include geo fencing.
  - Once the form has been submitted the user should get a confirmation email. 
  - Chat option for users
+ - Refund calculator
+ - Hamburger menu for mobile and tablet
+
  ## Testing
  ## Deployment
  **To deploy the project**
@@ -132,6 +169,43 @@ Only one branch has been used for this project.
 
 
  ## Credits 
+ ### Content 
 Most of this text from this site came from the process that it currently operates in. 
-The rules in which the system operates are available on the irish revenues website. 
+The rules in which the system operates are available on the irish revenues website.
+
 [Revenues Website](https://www.revenue.ie/en/vat/retail-export-scheme/vat-refund-agent.aspx)
+
+For getting a better understanding of displaying divs i watched the following video:  
+[coder-coder](https://coder-coder.com/display-divs-side-by-side/) 
+
+For getting a better understanding of contact forms i watched the following video:
+[How to build a responsive form with flexbox](https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767)
+
+In order to gain a better understanding of HTML and CSS i watched the following channels that provided tutorials on both aspects;
+
+
+- Kevin Powell 
+- Web Dev Simplified
+- Taversy Media
+- Dev Ed
+- Dev Dreamer
+- Keep Coding
+- Code Series
+- Programming with Mosh
+
+### Media
+All of the pictures that i have on this site are taken from [Pixels](https://www.pexels.com/).
+
+All of the icons for this website have been taken from [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+
+The fonts used in this website was used from [Googlefonts](https://fonts.google.com/)
+
+### Acknowledgments
+
+I would like to thank Precious Ijege for the guidance and support throughout this project.
+
+Kasia for all her help, support and huge patience.
+
+Sean for minding the kids and new born baby while i get through my course.
+
+Marie, Rebecca, Elaine and Sarah for their help with testing. 

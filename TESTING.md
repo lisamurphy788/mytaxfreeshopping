@@ -6,6 +6,7 @@
 
 |Ten issues reported| Closing element on footer | Fixed  | One issue remaining|
 | ---               | ---                       | ---    | ---            |
+
 ![HomepageValidatortest](testing/testingimages/validatortestinghome.PNG)
 
 ### About page

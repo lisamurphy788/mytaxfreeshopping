@@ -354,7 +354,6 @@ summary {
     margin: 30px;
     padding: 10px;
     border: solid;
-    box-shadow: #5E17Eb;
     padding: 10px;
     margin: 15px;
     
@@ -573,7 +572,7 @@ summary {
             background: #fffbfb;
             margin: 15px;
             border: solid;
-            box-shadow: #5E17Eb;
+            
             
          }
          .benefits {

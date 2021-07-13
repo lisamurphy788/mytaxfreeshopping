@@ -166,6 +166,8 @@ This page appears when a customer successfully submits the contact form. It incl
  - Hamburger menu for mobile and tablet
 
  ## Testing
+
+ The testing of this site can be found [here](TESTING.md)
  ## Deployment
  **To deploy the project**
 

@@ -68,7 +68,7 @@ The results are listed below;
 |ipad pro |Responsive      |Responsive    |Responsive       |Responsive|
 |Desktop 1024px |Responsive      |Responsive    |Responsive       |
 
-## FAQ
+## FAQ page
 |Device     |Links      |Images     |Nav bar Header/Footer|Airport locations (gmaps)|
 |---       |---        |---         | ---   | ---          |
 |Samsung S5     |Responsive      |Responsive     | Responsive|Responsive|
@@ -77,7 +77,7 @@ The results are listed below;
 |ipad     |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
 |ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
 |Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
-## Contact us
+## Contact us page
 |Device     |Links      |Images     |Nav bar Header/Footer|Contact Form| Location (gmaps)|
 |---       |---        |---         | ---   | ---          | ---|
 |Samsung S5     |Responsive      |Responsive     | Responsive|Responsive|Responsive|
@@ -87,7 +87,7 @@ The results are listed below;
 |ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
 |Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
 
-## Thank you 
+## Thank you page 
 |Device     |Links      |Images     |Nav bar Header/Footer|
 |---       |---        |---         | ---   | 
 |Samsung S5     |Responsive      |Responsive     | Responsive|

@@ -195,6 +195,8 @@ For getting a better understanding of displaying divs i watched the following vi
 For getting a better understanding of contact forms i watched the following video:
 [How to build a responsive form with flexbox](https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767)
 
+[To get a better understanding of Flexbox i used css tricks - a guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ )
+
 In order to gain a better understanding of HTML and CSS i watched the following channels that provided tutorials on both aspects;
 
 

@@ -359,6 +359,19 @@ summary {
     margin: 15px;
     
     }
+.mapouter {
+position:relative;
+text-align:right;
+height:321px;
+width:333px;
+}
+
+.gmap_canvas {
+overflow:hidden;
+background:none!important;
+height:321px;
+width:333px;
+}
   /* Thank you page on form submitted */
 
   .thank-you-image {

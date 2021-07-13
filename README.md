@@ -38,8 +38,19 @@ This website is for all potential customers who are non-EU tourists/travelers.
 - I also used san-serif as a fall back in the event of font not supported. 
 - I used all lowercase from a design perspective as it gave a much more relaxed view to a customer. Most of the corporate websites that work for the retailer instead of the customer have corporate websites. I wanted my tax free shopping to be simple, easy and customer focused. 
 - I used a link height of 2 to make it easy to read. 
+
+<details>
+<summary>Google Font Used</summary>
+
+![imageofgooglefonts](readmeimages/googlefontsimage.PNG)</details>
+
  #### Colors
-- The main color throughout the website is a purple #5E17EB. I used the color picker from the logo i created to find the #5E17EB. I used css gradient to create some nice circle gradient.
+- The main color throughout the website is a purple #5E17EB. I used the color picker from the logo i created to find the #5E17EB. I used css gradient to create some nice radial gradient.
+<details>
+<summary>CSS Gradient</summary>
+
+![cssgradient](readmeimages/cssgradientimage.PNG)</details>
+
  #### Images
 - I created mytaxfreeshopping logo from Canva. 
 - All of the images used were from pixels and i they are mostly airport setting images to keep with the theme of travel. 
@@ -200,6 +211,8 @@ All of the pictures that i have on this site are taken from [Pixels](https://www
 All of the icons for this website have been taken from [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
 
 The fonts used in this website was used from [Googlefonts](https://fonts.google.com/)
+
+I used some radial gradient also which came from [CSSGradiend](https://cssgradient.io/)
 
 ### Acknowledgments
 

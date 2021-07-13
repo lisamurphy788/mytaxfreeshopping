@@ -4,28 +4,39 @@
 
 ### Home page 
 
-|Ten issues reported| Closing element on footer | Fixed  | Issues resolved|
+|Ten issues reported| Closing element on footer | Fixed  | One issue remaining|
 | ---               | ---                       | ---    | ---            |
+![HomepageValidatortest](testing/testingimages/validatortestinghome.PNG)
+
 ### About page
 No Errors
+
+![aboutpagevalidation](testing/testingimages/validatortestingabout.PNG)
 
 ### How it works page
 |Six issues reported| Div element in UL         | Fixed  | Issues resolved|
 | ---               | ---                       | ---    | ---            |
 
+![howitworksvalidation](testing/testingimages/validatortestinghowitworks.PNG)
+
 ### Faq Page
 #### go back to this
-|Number of issues reported| google maps | inline styling| not resolved styling choice|
+|22 issues reported| google maps | inline styling| not resolved styling choice|
 | ---                     | ---         | ---    | ---                        |
+
+![faqvalidation](testing/testingimages/validatortestingfaqafterfix.PNG)
 
 ### Contact Page 
 #### go back to this
 |Number of issues reported| google maps | inline styling| not resolved styling choice|
 | ---                     | ---         | ---    | ---                        |
 
+![contactvalidation](testing/testingimages/contactvalidatortestafter.PNG)
+
 ### Thank you page
-|One issue reported| Stray "section" | Removed| Issues resolved|
-| ---              | ---             | ---    | ---            |
+No issues
+
+![thankyouvalidation](testing/testingimages/thankyoupage.PNG)
 
 ## CSS validator testing
 ### Two issues found 

@@ -85,6 +85,7 @@ The wireframes were designed using figma. My wireframes can be found here:
  
  <details>
 <summary>Image of Home page</summary>
+
 ![imageoflandingpage](readmeimages/homelandingpage.PNG)</details>
 
  #### **The about page**

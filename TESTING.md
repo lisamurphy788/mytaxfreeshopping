@@ -41,10 +41,60 @@ No Errors
 
 The results are listed below;
 ## Home Page
-|Device     |Links      |Images     |Nav bar|
-|---       |---        |---         | ---   |
+|Device     |Links      |Images     |Nav bar Header/Footer|Anination zoom|
+|---       |---        |---         | ---   | ---          |
+|Samsung S5     |Responsive      |Responsive     | Responsive|Responsive|
+|iphone 5   |Responsive |Responsive |Responsive|Responsive|
+|iphone 6/7/8     |Responsive      |Responsive     |  Responsive     |Responsive|
+|ipad     |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+## About Page 
+|Device     |Links      |Images     |Nav bar Header/Footer|
+|---       |---        |---         | ---   | 
+|Samsung S5     |Responsive      |Responsive     | Responsive|
+|iphone 5   |Responsive |Responsive |Responsive|
+|iphone 6/7/8     |Responsive      |Responsive     |  Responsive     |Responsive|
+|ipad     |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+## How it works page
+|Device     |Links      |Images     |Nav bar Header/Footer|
+|---       |---        |---         | ---   | 
 |Samsung S5     |Responsive      |Responsive     | Responsive|
 |iphone 5   |Responsive |Responsive |Responsive|
 |iphone 6/7/8     |Responsive      |Responsive     |  Responsive     |
 |ipad     |Responsive      |Responsive    |Responsive       |Responsive|
 |ipad pro |Responsive      |Responsive    |Responsive       |Responsive|
+|Desktop 1024px |Responsive      |Responsive    |Responsive       |
+
+## FAQ
+|Device     |Links      |Images     |Nav bar Header/Footer|Airport locations (gmaps)|
+|---       |---        |---         | ---   | ---          |
+|Samsung S5     |Responsive      |Responsive     | Responsive|Responsive|
+|iphone 5   |Responsive |Responsive |Responsive|Responsive|
+|iphone 6/7/8     |Responsive      |Responsive     |  Responsive     |Responsive|
+|ipad     |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+## Contact us
+|Device     |Links      |Images     |Nav bar Header/Footer|Contact Form| Location (gmaps)|
+|---       |---        |---         | ---   | ---          | ---|
+|Samsung S5     |Responsive      |Responsive     | Responsive|Responsive|Responsive|
+|iphone 5   |Responsive |Responsive |Responsive|Responsive| Responsive|
+|iphone 6/7/8     |Responsive      |Responsive     |  Responsive     |Responsive|Responsive|
+|ipad     |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|ipad pro |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+|Desktop 1024px |Responsive      |Responsive    |Responsive       |Responsive|Responsive|
+
+## Thank you 
+|Device     |Links      |Images     |Nav bar Header/Footer|
+|---       |---        |---         | ---   | 
+|Samsung S5     |Responsive      |Responsive     | Responsive|
+|iphone 5   |Responsive |Responsive |Responsive|
+|iphone 6/7/8     |Responsive      |Responsive     |  Responsive     |
+|ipad     |Responsive      |Responsive    |Responsive       |Responsive|
+|ipad pro |Responsive      |Responsive    |Responsive       |Responsive|
+|Desktop 1024px |Responsive      |Responsive    |Responsive       |
+
+Images from texting can be found here ##### insert link

@@ -57,6 +57,10 @@ The wireframes were designed using figma. My wireframes can be found here:
 
 [Desktop](readmeimages/wireframesdesktop.pdf)
 
+[Tablet](readmeimages/wireframesfortablet.pdf)
+
+[Mobile](readmeimages/wireframesformobile.pdf)
+
  ---
  ## Features
  ### Existing Features
@@ -68,28 +72,39 @@ The wireframes were designed using figma. My wireframes can be found here:
  - The my tax free shopping logo - this ensures the user gets familiar with the brand. 
  - The navigation bar - this allows the user to navigate through the different sections of the site easily. 
 
- # INSERT IMAGE HERE
+ ![imageofheader](readmeimages/headerimage.PNG)
 
  #### **The Footer Includes**
  - Social media links
- # INSERT IMAGE HERE
+ 
+ ![imageoffooter](readmeimages/footerimage.PNG)
 
  #### **The Homepage**
  The homepage/landing page includes an image that has some animation. It zooms slightly on landing.
  It also includes the main slogan/messaging. 
- # INSERT IMAGE HERE
+ 
+![imageoflandingpage](readmeimages/homelandingpage.PNG)
+
  #### **The about page**
  The about page gives the user information about how tax free shopping in ireland works and what the rules are. It also includes an image at the top. 
- # INSERT IMAGE HERE
+ 
+![imageofaboutpage](readmeimages/aboutimage.PNG)
+
  #### **How it works page**
  The how it works page includes information on what a customer needs to do in order to shop tax free. There were some icons taken from fontawesome to display the actions. 
  It also gives the benefits of using my tax free shopping to get a refund. Some background gradial css color was used here. 
- # INSERT IMAGE HERE
- #### **FAQ page**
+ 
+#### Top section of How it works
+![howitworkstop](readmeimages/howitworkstoptext.PNG)
+
+#### Image and bottom sections
+![howitworksbottom](readmeimages/imageandbottomhowitworks.PNG)
+
+ ### **FAQ page**
  The faq page includes a list of some of the main questions a tourist might have when trying to claim a refund. 
  The Faq page also includes a list of the three main irish airports along with some google maps. 
  # INSERT IMAGE HERE
- #### **Contact**
+ ### **Contact**
  The contact page includes a image of the cliffs of moher it is used a lot in marketing ireland as a destination. 
  The main item in this page is the contact form. This allows the user to send through a message to my tax free directly when they have any issues or questions. 
  The page also includes the actual address, phone and email for the company so the customer can contact them directly if they wish. 

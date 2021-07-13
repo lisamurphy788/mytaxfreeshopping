@@ -242,9 +242,11 @@ hr {
 }
 summary {
     font-weight: bolder;
+    color: #5E17Eb;
 }
 .text {
     font-style: italic;
+    color: #5E17EB;
 }
 .faqs {
     padding: 5px 20px;

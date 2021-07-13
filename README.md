@@ -53,10 +53,10 @@ This website is for all potential customers who are non-EU tourists/travelers.
 
 
 ### Wireframes 
-My wireframes can be found here ######
-| Desktop   | Tabet     | Mobile    |
-| ---       | ---       | ---       |
-| Link here | Link here | Link here |
+The wireframes were designed using figma. My wireframes can be found here:
+
+[Desktop](readmeimages/wireframesdesktop.pdf)
+
  ---
  ## Features
  ### Existing Features

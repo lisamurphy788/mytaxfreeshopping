@@ -159,6 +159,7 @@ animation-fill-mode: both;
 .benefits {
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
 }
 .benefits1, .benefits2, .benefits3, .benefits4, .benefits5, .benefits6 {
     width: 100px;

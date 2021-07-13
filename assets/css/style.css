@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     border: none;
-    overflow-x: hidden;
+    /*overflow-x: hidden;
+    overflow-y: hidden;*/
+ 
 }
 body {
     margin: 0;
@@ -182,7 +184,7 @@ footer {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: auto;
     padding-top: 75px
 }
 footer ul {
@@ -255,7 +257,7 @@ summary {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 30px;
-    width: 700px;
+    width: auto;
     color: #5E17EB;
 }
 .airports {
@@ -550,7 +552,13 @@ width:333px;
     }
     @media screen and (max-width: 376px)  {
      /* Header and navigation styling */ 
-         nav li {
+       
+        nav ul {
+                margin: 3px;
+                padding: 30px;
+
+        }
+        nav li {
                display: table-header-group;
                font-size: 15px;
                padding: 10px;
@@ -559,27 +567,44 @@ width:333px;
         nav {
                 float: none;
                 max-height: 150px;
-                margin-left: 10px;
+                margin-left: 0px;
+                padding: 0px;
                 }
          header  {
-                 height: 175px;
+                 height: 200px;
                
              }
     /* Home Landing page styling*/
-         .hero-image {
+        /* .hero-image {
                  height: 100vh;
                  width: 100%;
-                 overflow: hidden;
+                 overflow: hidden;*/
              }
-         .slogan {
-                 width: 220px;
-                 font-size: small;
-                 margin-top: 10px;
-             }
+             .hero-image {
+                height: 100vh;
+                width: 100%;
+                background-image: url(../images/hero\ image.webp);
+                background-attachment: fixed;
+                background-position: right;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                overflow: hidden;
+                animation-name: none;
+                animation-duration: 3s;
+                animation-fill-mode: both;
+            }
+            .slogan {
+                width: 300px;
+                font-size: small;
+                margin-top: 0px;
+                font-weight: 500;
+                margin-left: 10px;
+            }
          .slogan-bottom {
                  font-size: large;
-                 font-weight: bold;
-                 margin-left: 100px;
+                 font-weight: bolder;
+                 margin-left: 150px;
                  position: absolute;
              }
              /* about section */
@@ -614,8 +639,9 @@ width:333px;
             background: #fffbfb;
             margin: 15px;
             border: solid;
-            
-         }
+            width: auto;
+            overflow: hidden;
+        }
          .benefits {
             display: flex;
             flex-wrap: wrap;

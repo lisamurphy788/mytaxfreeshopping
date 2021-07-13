@@ -158,7 +158,6 @@ Images from texting can be found here ##### insert link
 
 ## Bugs
 
-  I had two main bugs to resolve:
  ### Main bug One
   - when testing the responsiveness the images would not load correctly when viewing on a device that was not a desktop. 
 
@@ -171,5 +170,10 @@ Images from texting can be found here ##### insert link
   ### Fix
   - In order to fix this i had to set the nav bar up on media queries as table header group. 
 
+### Main bug three
+- When testing responsiveness i found a horizontal scroll.
+
+### Fix
+- In order to fix this i had to add an overflow-x:hidden; code. This fixed the issue. 
 
 Go Back to [README.MD](README.md)

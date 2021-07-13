@@ -1,4 +1,4 @@
-![logo of my tax free shopping](mytaxfreeshoppingfinalresized.png)
+![logo of my tax free shopping](assets/images/mytaxfreeshoppingfinalresized.png)
 # my tax free shopping
 
 ![my tax free shopping] am i responsive #######

@@ -259,11 +259,13 @@ summary {
     margin-top: 20px;
     margin-bottom: 30px;
     width: 700px;
+    color: #5E17EB;
 }
 .airports {
-    display: flex;
+  display: flex;
   line-height: 1.5;
   flex-wrap: wrap;    
+  color: #5E17EB;
 }
 
 .dublin, .shannon, .cork {
@@ -300,6 +302,9 @@ summary {
     width: 400px;
     margin: auto;
     margin-top: 40px;
+    margin-left: 40px;
+    color: #5E17EB;
+
     }
 
 /* contact us form on contact page*/
@@ -452,15 +457,7 @@ summary {
     .slogan {
             width: 400px;
             font-size: large;
-            /* position: absolute; */
-            /* padding-top: 70px; */
-            /* padding: 20px 20px; */
-            /* float: right; */
             margin-left: 50px;
-           /* width: 50%;
-            font-size: large;
-            position: absolute;
-            padding-top: 70px;*/
         }
     .slogan-bottom {
                 font-size: large;
@@ -501,9 +498,6 @@ summary {
         .slogan {
                 width: 220px;
                 font-size: small;
-                /* margin-left: 100px; */
-                /*position: absolute;
-                padding-top: 70px;*/
             }
         .slogan-bottom {
                 font-size: large;
@@ -544,9 +538,6 @@ summary {
          .slogan {
                  width: 220px;
                  font-size: small;
-                 /* margin-left: 100px; */
-                 /*position: absolute;
-                 padding-top: 70px;*/
                  margin-top: 10px;
              }
          .slogan-bottom {
@@ -579,20 +570,16 @@ summary {
          }
          .contact-us-form {
             width: 400px;
-            /* padding: 10px; */
             margin: 10px;
-            /* float: left; */
             border: solid;
          }
          .our-details {
             line-height: 1.5rem;
             background: #fffbfb;
             margin: 15px;
-            /* padding: 10px; */
             border: solid;
             box-shadow: #5E17Eb;
-            /* padding: 10px; */
-            /* margin: 15px; */
+            
          }
          .benefits {
             display: flex;

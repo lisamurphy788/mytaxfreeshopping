@@ -21,18 +21,23 @@ No Errors
 ![howitworksvalidation](testing/testingimages/validatortestinghowitworks.PNG)
 
 ### Faq Page
-#### go back to this
-|22 issues reported| google maps | inline styling| not resolved styling choice|
+|22 issues reported| google maps | inline styling|one Warning -  styling choice|
 | ---                     | ---         | ---    | ---                        |
-
+Before Fix's
 ![faqvalidation](testing/testingimages/validatortestingfaqafterfix.PNG)
 
-### Contact Page 
-#### go back to this
-|Number of issues reported| google maps | inline styling| not resolved styling choice|
-| ---                     | ---         | ---    | ---                        |
+After Fix's
+![faqvalidationafter](testing/testingimages/faqpagevalidatorfinal.PNG)
 
+### Contact Page 
+
+|Number of issues reported| google maps | inline styling| one Warning - styling choice|
+| ---                     | ---         | ---    | ---                        |
+Before Fix's
 ![contactvalidation](testing/testingimages/contactvalidatortestafter.PNG)
+
+After Fix's 
+![contactvalidationafter](testing/testingimages/contactpageclear.PNG)
 
 ### Thank you page
 No issues
@@ -176,13 +181,19 @@ Images from texting can be found here ##### insert link
 ### Fix
 - In order to fix this i had to add an overflow-x:hidden; code. This fixed the issue. 
 
-### Main bug four
-- When putting code through the validator test i kept getting errors regarding the iframes and the inline styling. 
+### Bug four HTML Validator Test
+- When putting code through the validator test i kept getting errors regarding google maps on both the contact page and FAQ page. 
 
-### Fix one
-- I removed the inline styling from the html and placed it in the css. 
+### Fix 
+- I removed the inline styling from the html and placed it in the css and removed all the obsolite code.  
 
-### Fix two 
-- removed the obsolite styling in the iframe code. 
+### Bug Five - CSS Validator Test 
+- I recieved two errors in the css validator. 
+
+### Fix
+- I removed the box shaddow element for the our details section. 
+
+### Workaround - AlT description on Background Images
+- All images had been set as background images so in order to add the ALT description i had to put a span in the div and give a description within the span. This work and has been tested on Google Chrome screen reader. I got this from the [ALT Text for CSS Background Images](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html) 
 
 Go Back to [README.MD](README.md)

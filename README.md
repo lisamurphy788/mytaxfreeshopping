@@ -56,11 +56,11 @@ This website is for all potential customers who are non-EU tourists/travelers.
 - All of the images used were from pixels and i they are mostly airport setting images to keep with the theme of travel. 
 - Any icons i used were taken from fontawesome. 
 - List of images:
-1. Hero image - used on the homepage. Image of a large shopping centre showing people in all the different areas. The image is clean and crisp. It is light colors so i could use a dark text with it for good contract. 
-2. About image - used on the about page. Image of a guy in an airport. The majority of what the user needs to do is in the airport so a lot of my images come from there. The image shows the man from a distance by the windows on his phone. We want our customers like this in a calm area of the airport completing their claim from their phone. 
-3. How it works includes only icons as the main message needs to be simple and clear. 
-4. FAQ image - two airoplanes in the sky. Good use of color from the sky that blends well agains the purple. 
-5. Contact image - The cliffs of Moher image is used a lot in marketing and advertising and the majority of tourists visiting ireland would visit here so they would have some recognition. 
+1. **Hero image** - used on the homepage. Image of a large shopping centre showing people in all the different areas. The image is clean and crisp. It is light colors so i could use a dark text with it for good contract. 
+2. **About image** - used on the about page. Image of a guy in an airport. The majority of what the user needs to do is in the airport so a lot of my images come from there. The image shows the man from a distance by the windows on his phone. We want our customers like this in a calm area of the airport completing their claim from their phone. 
+3. **How it works** includes a picture of a lady smiling holding a ballon. My Tax Free shoppin wants all their customers to be smiling. There were also icons taken from fontawesom in this section.  
+4. **FAQ image** - two airoplanes in the sky. Good use of color from the sky that blends well agains the purple. 
+5. **Contact image** - The cliffs of Moher image is used a lot in marketing and advertising and the majority of tourists visiting ireland would visit here so they would have some recognition. 
 
 
 ### Wireframes 
@@ -109,7 +109,7 @@ The wireframes were designed using figma. My wireframes can be found here:
 
  ### **How it works page**
  The how it works page includes information on what a customer needs to do in order to shop tax free. There were some icons taken from fontawesome to display the actions. 
- It also gives the benefits of using my tax free shopping to get a refund. Some background gradial css color was used here. 
+ It also gives the benefits of using my tax free shopping to get a refund. Some background radial css color was used here. 
  
 ### Top section of How it works
 <details>
@@ -184,8 +184,13 @@ Only one branch has been used for this project.
 
  ## Credits 
  ### Content 
-Most of this text from this site came from the process that it currently operates in. 
-The rules in which the system operates are available on the irish revenues website.
+Most of the text from this site came from the process that it currently operates in. 
+The rules in which the system operates are available on the irish revenues website. (link below)
+
+Some code from that was thought in the Love Running project. Examples of this can be seen in the;
+
+- Website animation
+- Footer with social media links 
 
 [Revenues Website](https://www.revenue.ie/en/vat/retail-export-scheme/vat-refund-agent.aspx)
 
@@ -200,14 +205,18 @@ For getting a better understanding of contact forms i watched the following vide
 In order to gain a better understanding of HTML and CSS i watched the following channels that provided tutorials on both aspects;
 
 
-- Kevin Powell 
-- Web Dev Simplified
-- Taversy Media
-- Dev Ed
-- Dev Dreamer
-- Keep Coding
-- Code Series
-- Programming with Mosh
+- Kevin Powell [Flexbox](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd) 
+
+- Kevin Powell [How to create a nav bar](https://www.youtube.com/watch?v=FEmysQARWFU)
+
+- Web Dev Simplified [Learn flexbox in 15 min](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+- Taversy Media [CSS crash course for absolute beginners](https://www.youtube.com/watch?v=yfoY53QXEnI&t=1307s)
+- Taversy Media [How to build a responsive website](https://www.youtube.com/watch?v=p0bGHP-PXD4)
+- Dev Ed [Learn flexbox in 20 min](https://www.youtube.com/watch?v=FTlczfR82mQ)
+- Dev Dreamer [Complete guide to flexbox](https://www.youtube.com/watch?v=-DNLYk5uzl8)
+- Keep Coding [5 CSS tricks all web developers should know](https://www.youtube.com/watch?v=wfaDzSL6ll0)
+- Code Series [Faq section design](https://www.youtube.com/watch?v=yaRPsq6qDMk)
+
 
 ### Media
 All of the pictures that i have on this site are taken from [Pixels](https://www.pexels.com/).
@@ -222,7 +231,9 @@ I used some radial gradient also which came from [CSSGradiend](https://cssgradie
 
 I would like to thank Precious Ijege for the guidance and support throughout this project.
 
-Kasia for all her help, support and huge patience.
+Kasia for all her help, support and mountains of patience.
+
+To all my cohort for all of their help and support. 
 
 Sean for minding the kids and new born baby while i get through my course.
 

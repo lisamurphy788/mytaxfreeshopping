@@ -227,6 +227,8 @@ The fonts used in this website was used from [Googlefonts](https://fonts.google.
 
 I used some radial gradient also which came from [CSSGradiend](https://cssgradient.io/)
 
+I used Freeformater to run my HTML through for cleaning and indentation. [Free Formatter](https://www.freeformatter.com/)
+
 ### Acknowledgments
 
 I would like to thank Precious Ijege for the guidance and support throughout this project.

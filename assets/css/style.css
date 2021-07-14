@@ -3,16 +3,17 @@
     margin: 0;
     padding: 0;
     border: none;
-    /*overflow-x: hidden;
-    overflow-y: hidden;*/
+    
  
 }
 body {
-    margin: 0;
+    margin: 0px;
     background-color: #ffff;
     font-family: Montserrat, sans-serif;
     font-weight: 400;
+    color: #5E17Eb;
 }
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -86,6 +87,7 @@ section
   
 }
 
+
 /* Homepage/landing page*/
 
 .hero-image {
@@ -97,12 +99,12 @@ section
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 
 /* animation for hero image*/
-animation-name: hero-zoom;
-animation-duration: 3s;
-animation-fill-mode: both;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: both;
 
 }
 @keyframes hero-zoom {
@@ -110,13 +112,13 @@ animation-fill-mode: both;
         transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 .slogan {
     /* height: 900px; */
     width: 50%;
-    font-size: x-large;
+    font-size: xx-large;
     margin-left: 400px;
     font-weight: bolder;
     padding-top: 70px;
@@ -154,10 +156,11 @@ animation-fill-mode: both;
 .howitworksimage {
     height: 60vh;
     width: 100%;
-    background-image: url(../images/howitworks2.webp.jpg);
+    background-image: url(../images/howitworks2.webp.jpg); 
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 .benefits {
     display: flex;
@@ -170,6 +173,8 @@ animation-fill-mode: both;
     margin: 50px;
     text-align: center;
     justify-content: center;
+    display: flex;
+    align-items: center;
 
     color: white;
    /* border-radius: 50%;*/
@@ -255,8 +260,7 @@ summary {
 /* How faq's - airport locations*/
 .leaving-ireland-heading {
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 20px 0px 20px 10px;
     width: auto;
     color: #5E17EB;
 }
@@ -265,6 +269,8 @@ summary {
   line-height: 1.5;
   flex-wrap: wrap;    
   color: #5E17EB;
+  width: auto;
+  overflow: hidden;
 }
 
 .dublin, .shannon, .cork {
@@ -346,11 +352,11 @@ summary {
     border-radius: 2px;
 
   }
-  .country-list li {
+.country-list li {
     width: 100px;
     width: 50%; 
   }
-  .our-details {
+.our-details {
     width: 400px;
     line-height: 1.5rem;
     background: #fffbfb;
@@ -362,10 +368,10 @@ summary {
     
     }
 .mapouter {
-position:relative;
-text-align: center;
-height:321px;
-width:333px;
+    position:relative;
+    text-align: center;
+    height:321px;
+    width:333px;
 }
 
 .gmap_canvas {
@@ -376,27 +382,30 @@ width:333px;
 }
   /* Thank you page on form submitted */
 
-  .thank-you-image {
-      background-image: url(../images/thankyou.webp.png);
-      font-size: x-large;
-      height: 100vh;
-      color: #f2f2f2;
-      padding: 100px 200px;
+.thank-you-image {
+    background-image: url(../images/thankyou.webp.png);
+    font-size: x-large;
+    height: 100vh;
+    color: #f2f2f2;
+    padding: 100px 200px;
       
   }
-  @media screen and (max-width: 1040px) {
+@media screen and (max-width: 1040px) {
     
     /* Navigation */
 
-    nav li {
-        display: inline-block;
-        margin-left: 20px;
-        padding-right: 20px;
-        font-size: 30px;
-        
-        position: relative;
-    }
-    .slogan {
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    position: relative;
+    
+}
+.hero-image{
+    animation-name: none;
+}
+.slogan {
         width: 50%;
         font-size: xx-large;
         margin-left: 400px;
@@ -414,6 +423,7 @@ width:333px;
         margin-left: 500px;
         color: #5E17Eb;
     }
+
     .benefits {
         display: flex;
         flex-wrap: wrap;
@@ -461,7 +471,6 @@ width:333px;
         padding: 30px;
          }  
     nav  li {
-          display: inline;
           font-size: 25px;
           padding: 10px;
           margin: 0px;
@@ -486,7 +495,7 @@ width:333px;
             width: 400px;
             font-size: large;
             margin-left: 50px;*/
-        }
+        
     .slogan {
             width: 650px;
             font-size: xx-large;
@@ -505,6 +514,7 @@ width:333px;
                 margin-top: 40px;
                 margin-left: 10px;
         }
+}
     
 @media screen and (max-width: 420px)  {
     /* Header/footer styling */
@@ -528,14 +538,29 @@ width:333px;
         }
     /* Home page styling*/
 
-        .hero-image {
+        /*.hero-image {
                 height: 100vh;
                 width: 100%;
                 overflow: hidden;
-            }
+            }*/
+           /* .hero-image {
+                height: 100vh;
+                width: 100%;
+                background-image: url(../images/hero\ image.webp);
+                background-attachment: fixed;
+                background-position: right;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                overflow: hidden;
+                animation-name: none;
+                animation-duration: 3s;
+                animation-fill-mode: both;
+            }*/
         .slogan {
                 width: 220px;
-                font-size: small;
+                font-size: large;
+                margin-top: auto;
             }
         .slogan-bottom {
                 font-size: large;
@@ -553,13 +578,17 @@ width:333px;
     @media screen and (max-width: 376px)  {
      /* Header and navigation styling */ 
        
-        nav ul {
+     #menu {
+         display: inline-block;
+
+     }   
+     nav ul {
                 margin: 3px;
                 padding: 30px;
 
         }
         nav li {
-               display: table-header-group;
+              /* display: table-header-group;*/
                font-size: 15px;
                padding: 10px;
                
@@ -570,6 +599,7 @@ width:333px;
                 margin-left: 0px;
                 padding: 0px;
                 }
+
          header  {
                  height: 200px;
                
@@ -579,7 +609,7 @@ width:333px;
                  height: 100vh;
                  width: 100%;
                  overflow: hidden;*/
-             }
+             
              .hero-image {
                 height: 100vh;
                 width: 100%;
@@ -653,4 +683,27 @@ width:333px;
             text-align: center;
             justify-content: center;
      }
+    }
+    @media screen and (max-width: 280px)  {
+        #menu {
+            display: list-item;
+   
+        }  
+        .slogan {
+           width: 220px;
+            font-size: small;
+            margin-top: 0px;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+     .slogan-bottom {
+             font-size: medium;
+             font-weight: bolder;
+             margin-left: 150px;
+             position: absolute;
+         }
+    /*p {
+        margin: 15px;
+        padding: 10px;*/
     
+    }

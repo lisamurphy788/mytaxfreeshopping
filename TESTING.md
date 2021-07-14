@@ -176,4 +176,13 @@ Images from texting can be found here ##### insert link
 ### Fix
 - In order to fix this i had to add an overflow-x:hidden; code. This fixed the issue. 
 
+### Main bug four
+- When putting code through the validator test i kept getting errors regarding the iframes and the inline styling. 
+
+### Fix one
+- I removed the inline styling from the html and placed it in the css. 
+
+### Fix two 
+- removed the obsolite styling in the iframe code. 
+
 Go Back to [README.MD](README.md)

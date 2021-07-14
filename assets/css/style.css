@@ -363,7 +363,7 @@ summary {
     }
 .mapouter {
 position:relative;
-text-align:right;
+text-align: center;
 height:321px;
 width:333px;
 }

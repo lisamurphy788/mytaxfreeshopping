@@ -213,6 +213,16 @@ This project is hosted in GitHub Pages
 Only one branch has been used for this project.
 
 
+To clone this project from GitHub:
+
+1. Under the repository’s name, click Clone or download.
+2. In the Clone hTTPS section, copy the URL.
+3. In your IDE, open **Git Bash**.
+4. Change directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
+
+
  ## Credits 
  ### Content 
 Most of the text from this site came from the process that it currently operates in. 

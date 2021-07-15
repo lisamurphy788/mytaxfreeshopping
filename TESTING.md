@@ -52,9 +52,9 @@ No issues
 
 ## Responsiveness 
 
-- For all my responsiveness testing i used chrome dev tools
+- For all my responsiveness testing I used chrome dev tools
 - Family and Friends also tested on different mobile devices
-- ipad pro and samsung tablets were also used for testing tablets
+- iPad pro and Samsung tablets were also used for testing tablets
 
 The results are listed below;
 ## Home Page
@@ -119,14 +119,11 @@ Images from texting can be found here ##### insert link
 ## Browser Compatibility Testing
 ### **Browser type**
 
- **Chrome**
- -Responsive
+ |**Chrome**|**Internet Explorer**|**Firefox**|**Edge**|
+ |---|---|---|---|
+ |Responsive|Responsive|Responsive|Responsive|
+ |Appearance Good|Appearance Good|Appearance Good|Appearance Good|
  
- **Internet Explorer**
- -Responsive
-
- **Firefox**
- -Responsive
 
 ## User Stories 
 #### Site User
@@ -144,18 +141,18 @@ Images from texting can be found here ##### insert link
   * My Tax Free shopping has also provided a phone and email to contact them
   * Links for social media will also give the user options to contact them directly. 
 - As a user of this site, I want to be able to use this website fully from my mobile/tablet while at the airport. 
-  * The site is responsive on all mobile device provided the user has internet access.
+  * The site is responsive on all mobile devices provided the user has internet access.
 - As a user of this site, I want to find out the address of this company easily without having to fill out a contact us form. 
   * Address is listed clearly in the contact page. 
 
-- As a user of this site, I want links to social media so I can check for any issues with past customers or to ask any questions. 
+- As a user of this site, I want links to social media so I can check for any issues with past customers or ask any questions. 
   * Social media links have been provided on the footer across all pages. 
 
 #### Site Owner
 - As a site owner, I want the customer journey to be as seamless as possible.
-   * The website has provided the customer with all the information they need to have in order to claim a vat refund.  
+   * The website has provided the customer with all the information they need to have to claim a vat refund.  
 - As a site owner, I want to make sure the user finds the website and they find it informative and understands the process. 
-  * The website has given all the relevant information with regards the rules and regulations and the process in which the customer needs to follow. 
+  * The website has given all the relevant information with regards to the rules and regulations and the process in which the customer needs to follow. 
 - As a site owner, I want to generate refunds for the customer.
   * Future considerations
 - As a site owner, I want to highlight that there is no need to work with any other refund agent. 
@@ -167,33 +164,33 @@ Images from texting can be found here ##### insert link
   - when testing the responsiveness the images would not load correctly when viewing on a device that was not a desktop. 
 
   ### Fix
-  - In order to rectify this issue i had to remove the background image: Fixed; syntax from the CSS style sheet. This fixed the issue.
+  - In order to rectify this issue I had to remove the background image: Fixed; syntax from the CSS style sheet. This fixed the issue.
 
   ### Main bug two
   - When testing the responsiveness the nav bar kept dopping below the header. 
 
   ### Fix
-  - In order to fix this i had to set the nav bar up on media queries as table header group. 
+  - To fix this I had to set the nav bar upon media queries as a table header group. 
 
 ### Main bug three
-- When testing responsiveness i found a horizontal scroll.
+- When testing responsiveness I found a horizontal scroll.
 
 ### Fix
-- In order to fix this i had to add an overflow-x:hidden; code. This fixed the issue. 
+- In order to fix this I had to add an overflow-x:hidden; code. This fixed the issue. 
 
-### Bug four HTML Validator Test
-- When putting code through the validator test i kept getting errors regarding google maps on both the contact page and FAQ page. 
+### Bug four - HTML Validator Test
+- When putting code through the validator test I kept getting errors regarding google maps on both the contact page and FAQ page. 
 
 ### Fix 
-- I removed the inline styling from the html and placed it in the css and removed all the obsolite code.  
+- I removed the inline styling from the HTML and placed it in the CSS and removed all the obsolete code.  
 
 ### Bug Five - CSS Validator Test 
-- I recieved two errors in the css validator. 
+- I received two errors in the css validator. 
 
 ### Fix
-- I removed the box shaddow element for the our details section. 
+- I removed the box shadow element from the our details section. 
 
 ### Workaround - AlT description on Background Images
-- All images had been set as background images so in order to add the ALT description i had to put a span in the div and give a description within the span. This work and has been tested on Google Chrome screen reader. I got this from the [ALT Text for CSS Background Images](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html) 
+- All images had been set as background images so to add the ALT description I had to put a span in the div and give a description within the span. This work and has been tested on Google Chrome screen reader. I got this from the [ALT Text for CSS Background Images](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html) 
 
 Go Back to [README.MD](README.md)

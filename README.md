@@ -3,7 +3,7 @@
 
 ![amiresponsiveimage](readmeimages/amiresponsiveimage.JPG)
  
- my tax free is a fictional tax free shopping business founding by a female entrapreur in 2021. Having worked in the tax free shopping industry she decided to set up her own refunding business. Having known all of the issues and problems in the current system she set out to provide a solution that would ensure customer satisfaction. 
+ my tax free is a fictional tax free shopping business founding by a female entrepreneur in 2021. Having worked in the tax free shopping industry she decided to set up her own refunding business. Having known all of the issues and problems in the current system she set out to provide a solution that would ensure customer satisfaction. 
 
  You can visit the deployed site here [here](https://lisamurphy788.github.io/mytaxfreeshopping/index.html)
 
@@ -11,9 +11,9 @@
  ## UX
 
 ### Project Goals 
-The website will be called my tax free shopping. It promotes tax free shopping (TFS) to all non-EU tourists. Any tourist traveller visiting Ireland is entitled to claim their vat back. Currently there are three main operators in the market, Planet, Horizon and Innova. All of the current providers operate on a B2B model; they work directly with retailers to issue TFS sales to tourists. They work off a commission share model refund agent/retailer/tourist. My tax free shopping is giving the tourist choice to work with an agent that is only working for them to ensure they get a maximum refund cutting out large fees from retailers and agents. 
-The solution will eliminate the need for long forms and long queues at the airport. The tourist/traveller will use the snap and send all receipts to my tax free shopping who will then process the claim with customs and revenue.
-The main aim of the business is to remove the need for tourist/travellers to use multiple providers and also to get a higher tax refund. 
+The website will be called my tax free shopping. It promotes tax free shopping (TFS) to all non-EU tourists. Any tourist traveler visiting Ireland is entitled to claim their vat back. Currently, there are three main operators in the market, Planet, Horizon, and Innova. All of the current providers operate on a B2B model; they work directly with retailers to issue TFS sales to tourists. They work off a commission share model refund agent/retailer/tourist. My tax free shopping is giving the tourist choice to work with an agent that is only working for them to ensure they get a maximum refund cutting out large fees from retailers and agents. 
+The solution will eliminate the need for long forms and long queues at the airport. The tourist/traveler will use the snap and send all receipts to my tax free shopping who will then process the claim with customs and revenue.
+The main aim of the business is to remove the need for tourist/travelers to use multiple providers and also to get a higher tax refund. 
 This website is for all potential customers who are non-EU tourists/travelers. 
 
 ### User Stories 
@@ -24,7 +24,7 @@ This website is for all potential customers who are non-EU tourists/travelers.
 - As a user of this site, I want to be able to contact my tax free shopping if I want to follow up on my refund or to ask a question. 
 - As a user of this site, I want to be able to use this website fully from my mobile/tablet while at the airport. 
 - As a user of this site, I want to find out the address of this company easily without having to fill out a contact us form. 
-- As a user of this site, I want links to social media so I can check for any issues with past customers or to ask any questions. 
+- As a user of this site, I want links to social media so I can check for any issues with past customers or ask any questions. 
 #### Site Owner
 - As a site owner, I want the customer journey to be as seamless as possible. 
 - As a site owner, I want to make sure the user finds the website and they find it informative and understand the process. 
@@ -34,9 +34,9 @@ This website is for all potential customers who are non-EU tourists/travelers.
 
  ### Design Choices
  #### Typography
-- I used Monterrat for my fonts from Google fonts as i felt it was clear, relaxed and read very well. 
-- I also used san-serif as a fall back in the event of font not supported. 
-- I used all lowercase from a design perspective as it gave a much more relaxed view to a customer. Most of the corporate websites that work for the retailer instead of the customer have corporate websites. I wanted my tax free shopping to be simple, easy and customer focused. 
+- I used Montserrat for my fonts from Google fonts as i felt it was clear, relaxed, and read very well. 
+- I also used san-serif as a fallback in the event of the font not being supported. 
+- I used all lowercase from a design perspective as it gave a much more relaxed view to a customer. Most of the corporate websites that work for the retailer instead of the customer have corporate websites. I wanted my tax free shopping to be simple, easy, and customer-focused. 
 - I used a link height of 2 to make it easy to read. 
 
 <details>
@@ -45,7 +45,7 @@ This website is for all potential customers who are non-EU tourists/travelers.
 ![imageofgooglefonts](readmeimages/googlefontsimage.PNG)</details>
 
  #### Colors
-- The main color throughout the website is a purple #5E17EB. I used the color picker from the logo i created to find the #5E17EB. I used css gradient to create some nice radial gradient.
+- The main color throughout the website is purple #5E17EB. I used the color picker from the logo I created to find the #5E17EB. I used CSS gradient to create some nice radial gradients.
 <details>
 <summary>CSS Gradient</summary>
 
@@ -53,18 +53,18 @@ This website is for all potential customers who are non-EU tourists/travelers.
 
  #### Images
 - I created mytaxfreeshopping logo from Canva. 
-- All of the images used were from pixels and i they are mostly airport setting images to keep with the theme of travel. 
-- Any icons i used were taken from fontawesome. 
+- All of the images used were from pixels and they are mostly airport setting images to keep with the theme of travel. 
+- Any icons I used were taken from fontawesome. 
 - List of images:
-1. **Hero image** - used on the homepage. Image of a large shopping centre showing people in all the different areas. The image is clean and crisp. It is light colors so i could use a dark text with it for good contract. 
-2. **About image** - used on the about page. Image of a guy in an airport. The majority of what the user needs to do is in the airport so a lot of my images come from there. The image shows the man from a distance by the windows on his phone. We want our customers like this in a calm area of the airport completing their claim from their phone. 
-3. **How it works** includes a picture of a lady smiling holding a ballon. My Tax Free shoppin wants all their customers to be smiling. There were also icons taken from fontawesom in this section.  
-4. **FAQ image** - two airoplanes in the sky. Good use of color from the sky that blends well agains the purple. 
-5. **Contact image** - The cliffs of Moher image is used a lot in marketing and advertising and the majority of tourists visiting ireland would visit here so they would have some recognition. 
+1. **Hero image** - used on the homepage. Image of a large shopping center showing people in all the different areas. The image is clean and crisp. It has light colors so I could use a dark text with it for good contrast. 
+2. **About image** - used on the about page. Image of a guy in an airport. The majority of what the user needs to do is in the airport so a lot of my images come from there. The image shows the man from a distance by the windows on his phone. We want our customers like this in a calm area of the airport to complete their claim from their phone. 
+3. **How it works** includes a picture of a lady smiling holding a ballon. My Tax Free shopping wants all their customers to be smiling and feeling good. There were also icons taken from fontawesome in this section.  
+4. **FAQ image** - two airplanes in the sky. Good use of color from the sky that blends well against the purple. 
+5. **Contact image** - The cliffs of Moher image is used a lot in marketing and advertising and the majority of tourists visiting Ireland would visit here so they would have some recognition. 
 
 
 ### Wireframes 
-The wireframes were designed using figma. My wireframes can be found here:
+The wireframes were designed using Figma. My wireframes can be found here:
 
 [Desktop](readmeimages/wireframesdesktop.pdf)
 
@@ -80,8 +80,8 @@ The wireframes were designed using figma. My wireframes can be found here:
  - Have the same background color throughout. 
 
  #### **The Header Includes**
- - The my tax free shopping logo - this ensures the user gets familiar with the brand. 
- - The navigation bar - this allows the user to navigate through the different sections of the site easily. 
+ - The my tax free shopping logo - ensures the user gets familiar with the brand. 
+ - The navigation bar - allows the user to navigate through the different sections of the site easily. 
 
  ![imageofheader](readmeimages/headerimage.PNG)
 
@@ -100,7 +100,7 @@ The wireframes were designed using figma. My wireframes can be found here:
 ![imageoflandingpage](readmeimages/homelandingpage.PNG)</details>
 
  #### **The about page**
- The about page gives the user information about how tax free shopping in ireland works and what the rules are. It also includes an image at the top. 
+ The about page gives the user information about how tax free shopping in Ireland works and what the rules are. It also includes an image at the top. 
  
  <details>
 <summary>Image of About page</summary>
@@ -108,16 +108,16 @@ The wireframes were designed using figma. My wireframes can be found here:
 ![imageofaboutpage](readmeimages/aboutimage.PNG)</details>
 
  ### **How it works page**
- The how it works page includes information on what a customer needs to do in order to shop tax free. There were some icons taken from fontawesome to display the actions. 
- It also gives the benefits of using my tax free shopping to get a refund. Some background radial css color was used here. 
+ The how it works page includes information on what a customer needs to do to shop tax free. There were some icons taken from fontawesome to display the actions. 
+ It also gives the benefits of using my tax free shopping to get a refund. Some background radial CSS color was used here. 
  
-### Top section of How it works
+#### Top section - How it works
 <details>
 <summary>How it works page</summary>
 
 ![imageofhowitworkstop](readmeimages/howitworkstoptext.PNG)</details>
 
-### Bottom Image and bottom section of how it works
+#### Bottom Image and bottom section - How it works
 
 <details>
 <summary>How it works page</summary>
@@ -125,14 +125,14 @@ The wireframes were designed using figma. My wireframes can be found here:
 ![howitworksbottom](readmeimages/imageandbottomhowitworks.PNG)</details>
 
  ### **FAQ page**
- The faq page includes a list of some of the main questions a tourist might have when trying to claim a refund. I used a details and summary here to display the Q&A so the page wouldn't be to long.
+ The faq page includes a list of some of the main questions a tourist might have when trying to claim a refund. I used details and summary here to display the Q&A so the page wouldn't be too long.
 
 <details>
 <summary>FAQ page</summary>
 
 ![imageoffaqtop](readmeimages/imageoffaqpagetop.PNG)</details>
 
- The Faq page also includes a list of the three main irish airports along with some google maps. 
+ The Faq page also includes a list of the three main Irish airports along with some google maps. 
  <details>
  <summary>List of Irish airports section</summary>
 
@@ -140,9 +140,9 @@ The wireframes were designed using figma. My wireframes can be found here:
 
 
  ### **Contact**
- The contact page includes a image of the cliffs of moher it is used a lot in marketing ireland as a destination. 
- The main item in this page is the contact form. This allows the user to send through a message to my tax free directly when they have any issues or questions. 
- The page also includes the actual address, phone and email for the company so the customer can contact them directly if they wish. 
+ The contact page includes an image of the Cliffs of Moher it is used a lot in marketing Ireland as a destination. 
+ The main item on this page is the contact form. This allows the user to send a message to my tax free directly when they have any issues or questions. 
+ The page also includes the actual address, phone, and email for the company so the customer can contact them directly if they wish. 
 
 <details>
  <summary>Contact us page</summary>
@@ -159,7 +159,7 @@ This page appears when a customer successfully submits the contact form. It incl
 
 
  ### Future Features
- - Add a mobile app to include geo fencing.
+ - Add a mobile app to include geo-fencing.
  - Once the form has been submitted the user should get a confirmation email. 
  - Chat option for users
  - Refund calculator
@@ -185,24 +185,24 @@ Only one branch has been used for this project.
  ## Credits 
  ### Content 
 Most of the text from this site came from the process that it currently operates in. 
-The rules in which the system operates are available on the irish revenues website. (link below)
+The rules in which the system operates are available on the Irish Revenue website. (link below)
 
-Some code from that was thought in the Love Running project. Examples of this can be seen in the;
+Some code was adapted from that was thought in the Love Running project. Examples of this can be seen in the;
 
 - Website animation
 - Footer with social media links 
 
 [Revenues Website](https://www.revenue.ie/en/vat/retail-export-scheme/vat-refund-agent.aspx)
 
-For getting a better understanding of displaying divs i watched the following video:  
+For getting a better understanding of displaying divs I watched the following video's:  
 [coder-coder](https://coder-coder.com/display-divs-side-by-side/) 
 
 For getting a better understanding of contact forms i watched the following video:
 [How to build a responsive form with flexbox](https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767)
 
-[To get a better understanding of Flexbox i used css tricks - a guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ )
+[To get a better understanding of Flexbox I used CSS tricks - a guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/ )
 
-In order to gain a better understanding of HTML and CSS i watched the following channels that provided tutorials on both aspects;
+In order to gain a better understanding of HTML and CSS I watched the following channels that provided tutorials on both aspects some examples of these can be seen below;
 
 
 - Kevin Powell [Flexbox](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd) 
@@ -223,20 +223,22 @@ All of the pictures that i have on this site are taken from [Pixels](https://www
 
 All of the icons for this website have been taken from [Fontawesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
 
-The fonts used in this website was used from [Googlefonts](https://fonts.google.com/)
+The fonts used in this website was used from [Google fonts](https://fonts.google.com/)
 
-I used some radial gradient also which came from [CSSGradiend](https://cssgradient.io/)
+I used some radial gradients also which came from [CSSGradiend](https://cssgradient.io/)
 
 I used Freeformater to run my HTML through for cleaning and indentation. [Free Formatter](https://www.freeformatter.com/)
 
 ### Acknowledgments
 
-I would like to thank Precious Ijege for the guidance and support throughout this project.
+I would like to thank Precious Ijege for his guidance and support throughout this project.
 
-Kasia for all her help, support and mountains of patience.
+Kasia for all her help, support, and mountains of patience.
 
-To all my cohort for all of their help and support. 
+To all my cohort for all of their help and support. Especially Thomas Guilfoyle for testing my site and providing feedback.
 
-Sean for minding the kids and new born baby while i get through my course.
+To Maggie Walsh and Eventyret for helping with troubleshooting my bugs. 
 
-Marie, Rebecca, Elaine and Sarah for their help with testing. 
+Sean for minding the kids and newborn baby while I get through my course.
+
+Marie, Rebecca, Elaine, and Sarah for their help with testing. 

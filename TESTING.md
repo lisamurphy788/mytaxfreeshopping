@@ -4,7 +4,7 @@
 
 ### Home page 
 
-|Ten issues reported| Closing element on footer | Fixed  | One issue remaining|
+|Ten issues reported| Closing element on footer | Fixed  | One Warning -Styling Choice|
 | ---               | ---                       | ---    | ---            |
 
 ![HomepageValidatortest](testing/testingimages/validatortestinghome.PNG)
@@ -15,7 +15,7 @@ No Errors
 ![aboutpagevalidation](testing/testingimages/validatortestingabout.PNG)
 
 ### How it works page
-|Six issues reported| Div element in UL         | Fixed  | Issues resolved|
+|Six issues reported| Div element in UL         | Fixed  | All Issues resolved|
 | ---               | ---                       | ---    | ---            |
 
 ![howitworksvalidation](testing/testingimages/validatortestinghowitworks.PNG)

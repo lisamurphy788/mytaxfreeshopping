@@ -270,6 +270,12 @@ I used some radial gradients also which came from [CSSGradiend](https://cssgradi
 
 I used Freeformater to run my HTML through for cleaning and indentation. [Free Formatter](https://www.freeformatter.com/)
 
+### Main Technologies Used
+- Github/Gitpod
+- HTML
+- CSS
+
+
 ### Acknowledgments
 
 I would like to thank Precious Ijege for his guidance and support throughout this project.

@@ -3,6 +3,39 @@
 
 ![amiresponsiveimage](readmeimages/amiresponsiveimage.JPG)
  
+ - [my tax free shopping](#my-tax-free-shopping)
+  * [UX](#ux)
+    + [Project Goals](#project-goals)
+    + [User Stories](#user-stories)
+      - [Site User](#site-user)
+      - [Site Owner](#site-owner)
+    + [Design Choices](#design-choices)
+      - [Typography](#typography)
+      - [Colors](#colors)
+      - [Images](#images)
+    + [Wireframes](#wireframes)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+      - [**The header and footer**](#--the-header-and-footer--)
+      - [**The Header Includes**](#--the-header-includes--)
+      - [**The Footer Includes**](#--the-footer-includes--)
+      - [**The Homepage**](#--the-homepage--)
+      - [**The about page**](#--the-about-page--)
+    + [**How it works page**](#--how-it-works-page--)
+      - [Top section - How it works](#top-section---how-it-works)
+      - [Bottom Image and bottom section - How it works](#bottom-image-and-bottom-section---how-it-works)
+    + [**FAQ page**](#--faq-page--)
+    + [**Contact**](#--contact--)
+    + [**Thank you page**](#--thank-you-page--)
+    + [Future Features](#future-features)
+  * [Testing](#testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgments](#acknowledgments)
+  
+
  my tax free is a fictional tax free shopping business founding by a female entrepreneur in 2021. Having worked in the tax free shopping industry she decided to set up her own refunding business. Having known all of the issues and problems in the current system she set out to provide a solution that would ensure customer satisfaction. 
 
  You can visit the deployed site here [here](https://lisamurphy788.github.io/mytaxfreeshopping/index.html)
@@ -63,7 +96,7 @@ This website is for all potential customers who are non-EU tourists/travelers.
 5. **Contact image** - The cliffs of Moher image is used a lot in marketing and advertising and the majority of tourists visiting Ireland would visit here so they would have some recognition. 
 
 
-### Wireframes 
+#### Wireframes 
 The wireframes were designed using Figma. My wireframes can be found here:
 
 [Desktop](readmeimages/wireframesdesktop.pdf)
@@ -73,7 +106,7 @@ The wireframes were designed using Figma. My wireframes can be found here:
 [Mobile](readmeimages/wireframesformobile.pdf)
 
  ---
- ## Features
+ ### Features
  ### Existing Features
  #### **The header and footer**
  - Are both present throughout all the pages. 
@@ -107,24 +140,24 @@ The wireframes were designed using Figma. My wireframes can be found here:
 
 ![imageofaboutpage](readmeimages/aboutimage.PNG)</details>
 
- ### **How it works page**
+ #### **How it works page**
  The how it works page includes information on what a customer needs to do to shop tax free. There were some icons taken from fontawesome to display the actions. 
  It also gives the benefits of using my tax free shopping to get a refund. Some background radial CSS color was used here. 
  
-#### Top section - How it works
+##### Top section - How it works
 <details>
 <summary>How it works page</summary>
 
 ![imageofhowitworkstop](readmeimages/howitworkstoptext.PNG)</details>
 
-#### Bottom Image and bottom section - How it works
+##### Bottom Image and bottom section - How it works
 
 <details>
 <summary>How it works page</summary>
 
 ![howitworksbottom](readmeimages/imageandbottomhowitworks.PNG)</details>
 
- ### **FAQ page**
+ #### **FAQ page**
  The faq page includes a list of some of the main questions a tourist might have when trying to claim a refund. I used details and summary here to display the Q&A so the page wouldn't be too long.
 
 <details>
@@ -139,7 +172,7 @@ The wireframes were designed using Figma. My wireframes can be found here:
 ![imageofairportsbottom](readmeimages/imageoffaqbottom.PNG)</details>
 
 
- ### **Contact**
+ #### **Contact**
  The contact page includes an image of the Cliffs of Moher it is used a lot in marketing Ireland as a destination. 
  The main item on this page is the contact form. This allows the user to send a message to my tax free directly when they have any issues or questions. 
  The page also includes the actual address, phone, and email for the company so the customer can contact them directly if they wish. 
@@ -149,16 +182,14 @@ The wireframes were designed using Figma. My wireframes can be found here:
 
 ![imageofcontactuspage](readmeimages/contactusimage.PNG)</details>
  
-### **Thank you page**
+#### **Thank you page**
 This page appears when a customer successfully submits the contact form. It includes some text confirming they have successfully submitted and a background image. 
 <details>
  <summary>Thank you page</summary>
 
 ![thankyoupageimage](readmeimages/thankyouimage.PNG)</details>
- 
 
-
- ### Future Features
+ ### **Future Features**
  - Add a mobile app to include geo-fencing.
  - Once the form has been submitted the user should get a confirmation email. 
  - Chat option for users
@@ -187,7 +218,7 @@ Only one branch has been used for this project.
 Most of the text from this site came from the process that it currently operates in. 
 The rules in which the system operates are available on the Irish Revenue website. (link below)
 
-Some code was adapted from that was thought in the Love Running project. Examples of this can be seen in the;
+Some code was adapted from what was thought in the Love Running project. Examples of this can be seen in the;
 
 - Website animation
 - Footer with social media links 

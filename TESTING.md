@@ -114,7 +114,6 @@ The results are listed below;
 |ipad pro |Responsive      |Responsive    |Responsive       |Responsive|
 |Desktop 1024px |Responsive      |Responsive    |Responsive       |
 
-Images from texting can be found here ##### insert link
 
 ## Browser Compatibility Testing
 ### **Browser type**

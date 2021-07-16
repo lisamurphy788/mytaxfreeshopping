@@ -1,415 +1,448 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Roboto&display=swap');
 
 /*Styling for main Body*/
+
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    margin: 0px;
-    background-color: #ffff;
-    font-family: Montserrat, sans-serif;
-    font-weight: 400;
-    color: #5E17Eb;
+  margin: 0px;
+  background-color: #ffff;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #5E17Eb;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    
+  width: 100%;
+  margin: 0 auto;
 }
-    
+
 /* Header Logo and Nav bar*/
 
 header {
-    display: flex;
-   flex-wrap: wrap;
-    background-color: #5E17EB;
-    height: 200px;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #5E17EB;
+  height: 200px;
+  width: 100%;
 }
+
 header::after {
-    content: '';
-    display: table;
-    clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .logo {
-    float: left;
-    height: 150px;
+  float: left;
+  height: 150px;
 }
-nav {
-    float: right;
-    max-height: 150px;
-    }
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
 
+nav {
+  float: right;
+  max-height: 150px;
 }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 100px;
-    padding-right: 20px;
-    font-size: 25px;
-    
-    position: relative;
-    
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 100px;
+  padding-right: 20px;
+  font-size: 25px;
+  position: relative;
 }
+
 nav ul li a {
-    color: #ffff;
-    text-decoration: none;
-    text-transform: lowercase;
+  color: #ffff;
+  text-decoration: none;
+  text-transform: lowercase;
 }
 
 nav a:hover {
-    color: rgba(247, 84, 9, 0.979) ;
+  color: rgba(247, 84, 9, 0.979);
 }
+
 .active {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 /* sections and divs */
 
-section
-
-.div-text {
-    color: #5E17EB ;
-    font-weight: 400;
-    text-transform: lowercase;
-    font-size: large;
-    justify-content: right;
-    line-height: 2;
-    margin-left: 40px;
-      
+section .div-text {
+  color: #5E17EB;
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: large;
+  justify-content: right;
+  line-height: 2;
+  margin-left: 40px;
 }
-
 
 /* Homepage/landing page*/
 
+
 /* Hero Image and animation*/
+
 .hero-image {
-    height: 100vh;
-    width: 100%;
-    background-image: url('../images/hero\ image.webp');
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../images/hero\ image.webp');
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
 
-/* animation for hero image*/
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-
+  /* animation for hero image*/
+  animation-name: hero-zoom;
+  animation-duration: 3s;
+  animation-fill-mode: both;
 }
+
 @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.05);
-    }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
 }
+
 /*Messaging and slogan*/
+
 .slogan {
-    width: 50%;
-    font-size: xx-large;
-    margin-left: 400px;
-    font-weight: bolder;
-    padding-top: 70px;
-    padding: 20px 20px;
-    color: #5E17Eb;
-    margin-top: 30px;
+  width: 50%;
+  font-size: xx-large;
+  margin-left: 400px;
+  font-weight: bolder;
+  padding-top: 70px;
+  padding: 20px 20px;
+  color: #5E17Eb;
+  margin-top: 30px;
 }
-    
+
 .slogan-bottom {
-    font-size: x-large;
-    font-weight: bold;
-    height: 100px;
-    width: 50%;
-    margin-left: 500px;
-    color: #5E17Eb;
+  font-size: x-large;
+  font-weight: bold;
+  height: 100px;
+  width: 50%;
+  margin-left: 500px;
+  color: #5E17Eb;
 }
+
 /* About page */
 
 .aboutimage {
-    height: 50vh;
-    width: 100%;
-    background-image: url(../images/aboutus.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 50vh;
+  width: 100%;
+  background-image: url(../images/aboutus.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /* How it works using flexbox*/
 
 .howitworksimage {
-    height: 60vh;
-    width: 100%;
-    background-image: url(../images/howitworks2.webp.jpg); 
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
+  height: 60vh;
+  width: 100%;
+  background-image: url(../images/howitworks2.webp.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
 }
+
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    line-height: 1.5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  line-height: 1.5;
 }
 
 .benefits {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
 }
-.benefits1, .benefits2, .benefits3, .benefits4, .benefits5, .benefits6 {
-    width: 100px;
-    height: 100px;
-    margin: 50px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    color: white;
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(172,23,235,1) 100%);
+
+.benefits1,
+.benefits2,
+.benefits3,
+.benefits4,
+.benefits5,
+.benefits6 {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(172, 23, 235, 1) 100%);
 }
 
 /* footer and social media icons */
+
 footer {
-    color: #ffff;
-    background-color: #5E17EB;
-    margin: auto;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    padding-top: 75px
+  color: #ffff;
+  background-color: #5E17EB;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  padding-top: 75px
 }
+
 footer ul {
-    margin: auto;
-    padding:0;
-    list-style: none;
-    color: #ffff;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  color: #ffff;
 }
+
 footer ul li {
-    color: #ffff;
-    display: inline-block;
-    margin-left: 50px;
-    padding-top: 10px;
-    padding-right: 50px;
-    font-size: 25px;
-    text-decoration: none;
+  color: #ffff;
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-right: 50px;
+  font-size: 25px;
+  text-decoration: none;
 }
+
 a {
-    color: #fff;
+  color: #fff;
 }
+
 /*Social media*/
+
 .social-media {
-    text-align: center;
+  text-align: center;
 }
+
 footer a:hover {
-        color: rgba(247, 84, 9, 0.979) ;
+  color: rgba(247, 84, 9, 0.979);
 }
 
 hr {
-    color: #5E17EB;
-    margin: 0;
+  color: #5E17EB;
+  margin: 0;
 }
 
 /* faqs page*/
-.imageforfaq {
-    height: 50vh;
-    width: 100%;
-    background-image: url(../images/faqimage.jpeg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.box {
-    display: flex;
 
+.imageforfaq {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../images/faqimage.jpeg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.box {
+  display: flex;
+}
+
 .box .headings {
-    background: #5E17EB;
-    border-radius: 7px 7px 0px 0px;
-    padding: 10px;
-    color: #fff;
-    text-align: center;
-    font-weight: bolder;
-    font-size: larger;
+  background: #5E17EB;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
 }
+
 summary {
-    font-weight: bolder;
-    color: #5E17Eb;
+  font-weight: bolder;
+  color: #5E17Eb;
 }
+
 .text {
-    font-style: italic;
-    color: #5E17EB;
+  font-style: italic;
+  color: #5E17EB;
 }
+
 .faqs {
-    padding: 5px 20px;
-    margin-top: 5px;
-    line-height: 3;
+  padding: 5px 20px;
+  margin-top: 5px;
+  line-height: 3;
 }
+
 /* How faq's - airport locations*/
+
 .leaving-ireland-heading {
-    margin: auto;
-    margin: 20px 0px 20px 10px;
-    width: auto;
-    color: #5E17EB;
+  margin: auto;
+  margin: 20px 0px 20px 10px;
+  width: auto;
+  color: #5E17EB;
 }
+
 .airports {
   display: flex;
   line-height: 1.5;
-  flex-wrap: wrap;    
+  flex-wrap: wrap;
   color: #5E17EB;
   width: auto;
   overflow: hidden;
 }
 
-.dublin, .shannon, .cork {
-    flex: 1;
-    flex-basis: 200px;
-    margin: 30px 30px 30px 30px;
-    overflow-x: hidden;
-
-    
+.dublin,
+.shannon,
+.cork {
+  flex: 1;
+  flex-basis: 200px;
+  margin: 30px 30px 30px 30px;
+  overflow-x: hidden;
 }
+
 /* contact us section */
+
 .contact-us {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .contact-us-image {
-    width: 100%;
-    height: 50vh;
-    background-image: url(../images/contactusimage3.webp.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  width: 100%;
+  height: 50vh;
+  background-image: url(../images/contactusimage3.webp.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /* Heading in contact page*/
 
 .contact-us-heading {
-    width: 400px;
-    margin: auto;
-    margin-top: 40px;
-    margin-left: 40px;
-    color: #5E17EB;
-
-    }
+  width: 400px;
+  margin: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+  color: #5E17EB;
+}
 
 /* contact us form on contact page*/
 
 .contact-us-form {
-    width: 400px;
-    padding: 10px;;
-    margin: 30px;
-    float: left;
-    border: solid;
-
+  width: 400px;
+  padding: 10px;
+  ;
+  margin: 30px;
+  float: left;
+  border: solid;
 }
 
-.details-list li, .country-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background: #ecebeb;
+.details-list li,
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #ecebeb;
 }
 
-.details-list > li > label,
+.details-list>li>label,
 .country-list li p {
   flex: 1 0 120px;
   max-width: 220px;
 }
- 
-.details-list > li > label + *,
+
+.details-list>li>label+*,
 .country-list {
   flex: 1 0 220px;
   padding: 10px;
   margin: 15px;
 }
-.details-list li button {
-    margin-left: auto;
-    padding: 8px 16px;
-    border: none;
-    background: #5E17Eb;
-    color: #f2f2f2;
-    text-transform: uppercase;
-    letter-spacing: .09em;
-    border-radius: 2px;
 
+.details-list li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #5E17Eb;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
 }
+
 .country-list li {
-    width: 100px;
-    width: 50%; 
+  width: 100px;
+  width: 50%;
 }
+
 .our-details {
-    width: 400px;
-    line-height: 1.5rem;
-    background: #fffbfb;
-    margin: 30px;
-    padding: 10px;
-    border: solid;
-    padding: 10px;
-    margin: 15px;  
+  width: 400px;
+  line-height: 1.5rem;
+  background: #fffbfb;
+  margin: 30px;
+  padding: 10px;
+  border: solid;
+  padding: 10px;
+  margin: 15px;
 }
 
 /*Google maps*/
 
 .mapouter {
-    position:relative;
-    text-align: center;
-    height:321px;
-    width:333px;
+  position: relative;
+  text-align: center;
+  height: 321px;
+  width: 333px;
 }
 
 .gmap_canvas {
-overflow:hidden;
-background:none!important;
-height:321px;
-width:333px;
+  overflow: hidden;
+  background: none!important;
+  height: 321px;
+  width: 333px;
 }
 
 /* Thank you page on form submitted */
 
 .thank-you-image {
-    background-image: url(../images/thankyou.webp.png);
-    font-size: x-large;
-    height: 100vh;
-    color: #f2f2f2;
-    padding: 100px 200px;   
+  background-image: url(../images/thankyou.webp.png);
+  font-size: x-large;
+  height: 100vh;
+  color: #f2f2f2;
+  padding: 100px 200px;
 }
 
 @media screen and (max-width: 1040px) {
-    
-/* Navigation */
 
-nav li {
+  /* Navigation */
+
+  nav li {
     display: inline-block;
     margin-left: 20px;
     padding-right: 20px;
     font-size: 30px;
     position: relative;
-}
+  }
 
-.hero-image{
+  .hero-image {
     animation-name: none;
-}
-/*Home Page*/
-.slogan {
+  }
+
+  /*Home Page*/
+
+  .slogan {
     width: 50%;
     font-size: xx-large;
     margin-left: 400px;
@@ -418,297 +451,344 @@ nav li {
     padding: 20px 20px;
     color: #5E17Eb;
     margin-top: 90px;
-    }
-.slogan-bottom {
+  }
+
+  .slogan-bottom {
     font-size: xxx-large;
     font-weight: bolder;
     height: 100px;
     width: 50%;
     margin-left: 500px;
     color: #5E17Eb;
-    }
-/*How it works page*/
-.benefits {
+  }
+
+  /*How it works page*/
+
+  .benefits {
     display: flex;
     flex-wrap: wrap;
-    }
+  }
 
-.benefits1, .benefits2, .benefits3, .benefits4, .benefits5, .benefits6 {
+  .benefits1,
+  .benefits2,
+  .benefits3,
+  .benefits4,
+  .benefits5,
+  .benefits6 {
     width: 100px;
     height: 100px;
     margin: 30px;
     text-align: center;
     justify-content: center;
-    }
+  }
 }
-@media screen and (max-width: 850px)  {
-    /* Header/footer and navigation styling*/
 
-    nav ul {
-        margin: 30px;
-        padding: 30px;
-    }
-    nav li {
-      display: table-header-group;
-      font-size: 30px;
-      width: 100%;
-    }
-    header  {
-        height: 250px;
-    }
-    footer {
-        height: 100px;
-    }
-    /* contact us section */
-    .contact-us-heading {
-        margin: auto;
-        margin-top: 40px;
-        margin-left: 10px;
-    }
+@media screen and (max-width: 850px) {
+
+  /* Header/footer and navigation styling*/
+
+  nav ul {
+    margin: 30px;
+    padding: 30px;
+  }
+
+  nav li {
+    display: table-header-group;
+    font-size: 30px;
+    width: 100%;
+  }
+
+  header {
+    height: 250px;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  /* contact us section */
+
+  .contact-us-heading {
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
 }
-@media screen and (max-width: 770px)  {
 
-    /* Header/footer and navigation styling */
+@media screen and (max-width: 770px) {
 
-    nav ul {
-        margin: 30px;
-        padding: 30px;
-        }  
+  /* Header/footer and navigation styling */
 
-    nav  li {
-          font-size: 25px;
-          padding: 10px;
-          margin: 0px;
-         
-        }
- 
-    header  {
-            height: 275px;
-          
-        }
-    footer {
-        height: 60px;
-    }
-    /* Homepage/landing page styling */
+  nav ul {
+    margin: 30px;
+    padding: 30px;
+  }
 
-    .hero-image {
-            height: 100vh;
-            width: 100%;
-            overflow: hidden;
-        }
+  nav li {
+    font-size: 25px;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  header {
+    height: 275px;
+  }
+
+  footer {
+    height: 60px;
+  }
+
+  /* Homepage/landing page styling */
+
+  .hero-image {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slogan {
+    width: 650px;
+    font-size: xx-large;
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+
+  .slogan-bottom {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 100px;
+    position: absolute;
+  }
+
+  /* Contact us page */
+
+  .contact-us-heading {
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+  .slogan {
+    width: fit-content;
+    font-size: large;
+    margin: 0px;
+    margin-left: 50px;
+  }
+
+  .slogan-bottom {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 50px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  /* Header/footer styling */
+
+  nav ul {
+    margin: 0px;
+    padding: 30px;
+  }
+
+  nav li {
+    display: table-header-group;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  header {
+    height: 150px;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  /* Home page styling*/
+
+  .slogan {
+    width: 220px;
+    font-size: large;
+    margin-top: auto;
+  }
+
+  .slogan-bottom {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 100px;
+    position: absolute;
+  }
+
+  /*Contact us page*/
+
+  .contact-us-heading {
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  /* Header and navigation styling */
+
+  #menu {
+    display: inline-block;
+  }
+
+  nav ul {
+    margin: 3px;
+    padding: 30px;
+  }
+
+  nav li {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  nav {
+    float: none;
+    max-height: 150px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+
+  header {
+    height: 200px;
+  }
+
+  /* Home Landing page styling*/
+
+  .hero-image {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/hero\ image.webp);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    animation-name: none;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+
+  .slogan {
+    width: 300px;
+    font-size: small;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  .slogan-bottom {
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 150px;
+    position: absolute;
+  }
+
+  /* about section */
+
+  .aboutimage {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/aboutus.jpg);
+    background-size: cover;
+  }
+
+  /* how it works section*/
+
+  .howitworksimage {
+    height: 60vh;
+    min-width: 280px;
+    width: 100%;
+    background-image: url(../images/howitworks2.webp.jpg);
+    background-size: cover;
+  }
+
+  .benefits {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .benefits1,
+  .benefits2,
+  .benefits3,
+  .benefits4,
+  .benefits5,
+  .benefits6 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /*FAQ section*/
+  .airports {
+    display: contents;
+  }
+
+  /* Contact us section */
+
+  .contact-us-heading {
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
+  .contact-us-form {
+    width: 400px;
+    margin: 10px;
+    border: solid;
+  }
+
+  .our-details {
+    line-height: 1.5rem;
+    background: #fffbfb;
+    margin: 15px;
+    border: solid;
+    width: auto;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 280px) {
   
-        
-    .slogan {
-            width: 650px;
-            font-size: xx-large;
-            margin-left: 50px;
-            margin-top: 70px;
-        }
-    .slogan-bottom {
-            font-size: xx-large;
-            font-weight: bold;
-            margin-left: 100px;
-            position: absolute;
-        }
-    /* Contact us page */
-    .contact-us-heading {
-            margin: auto;
-            margin-top: 40px;
-            margin-left: 10px;
-        }
+    /*HOme/landing page*/
+
+  #menu {
+    display: list-item;
+  }
+
+  .slogan {
+    width: 220px;
+    font-size: small;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+
+  .slogan-bottom {
+    font-size: medium;
+    font-weight: bolder;
+    margin-left: 150px;
+    position: absolute;
+  }
+
+  .details-list>li>label+*,
+  .country-list {
+    width: 200px;
+    padding: 10px;
+    margin: 15px;
+  }
 }
-@media screen and (max-width: 540px)  {
-    .slogan {
-            width: fit-content;
-            font-size: large;
-            margin: 0px;
-            margin-left: 50px;
-        }
-    .slogan-bottom {
-            font-size: large;
-            font-weight: bold;
-            margin-left: 50px;
-            position: absolute;
-        }
-    }
-    
-@media screen and (max-width: 420px)  {
-    /* Header/footer styling */
-        
-    nav ul {
-            margin: 0px;
-            padding: 30px;
-        }
-    nav li {
-            display: table-header-group;
-            font-size: 20px;
-            padding: 10px;
-        }
-     
-    header  {
-            height: 150px;
-              
-        }
-
-    footer {
-            height: 100px;
-        }
-    /* Home page styling*/
-
-        .slogan {
-                width: 220px;
-                font-size: large;
-                margin-top: auto;
-            }
-        .slogan-bottom {
-                font-size: large;
-                font-weight: bold;
-                margin-left: 100px;
-                position: absolute;
-            }
-        /*Contact us page*/
-
-        .contact-us-heading {
-                width: 350px;
-                margin: auto;
-                margin-top: 40px;
-                margin-left: 10px;
-        }
-    }
-    @media screen and (max-width: 376px)  {
-     /* Header and navigation styling */ 
-       
-        #menu {
-            display: inline-block;
-
-        }   
-        nav ul {
-            margin: 3px;
-            padding: 30px;
-
-        }
-        nav li {
-               font-size: 15px;
-               padding: 10px;
-               
-        }
-
-        nav {
-                float: none;
-                max-height: 150px;
-                margin-left: 0px;
-                padding: 0px;
-        }
-
-        header  {
-                height: 200px;
-               
-        }
-    /* Home Landing page styling*/
-
-             .hero-image {
-                height: 100vh;
-                width: 100%;
-                background-image: url(../images/hero\ image.webp);
-                background-attachment: fixed;
-                background-position: right;
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: relative;
-                overflow: hidden;
-                animation-name: none;
-                animation-duration: 3s;
-                animation-fill-mode: both;
-            }
-            .slogan {
-                width: 300px;
-                font-size: small;
-                margin-top: 0px;
-                font-weight: 500;
-                margin-left: 10px;
-            }
-         .slogan-bottom {
-                 font-size: large;
-                 font-weight: bolder;
-                 margin-left: 150px;
-                 position: absolute;
-             }
-             /* about section */
-             .aboutimage {
-                height: 50vh;
-                width: 100%;
-                background-image: url(../images/aboutus.jpg);
-                background-size: cover;
-            }
-             /* how it works section*/
-             .howitworksimage {
-                height: 60vh;
-                min-width: 280px;
-                width: 100%;
-                background-image: url(../images/howitworks2.webp.jpg);
-                background-size: cover;
-            }
-             /*How it works section*/
-             .benefits {
-                display: flex;
-                flex-wrap: wrap;
-            }
-            .benefits1, .benefits2, .benefits3, .benefits4, .benefits5, .benefits6 {
-                width: 100px;
-                height: 100px;
-                margin: 10px;
-                text-align: center;
-                justify-content: center;
-            }
-            /*FAQ section*/
-            .airports {
-                display: contents;
-            }
-
-         /* Contact us section */
-            .contact-us-heading {
-                width: 300px;
-                 margin: auto;
-                 margin-top: 40px;
-                 margin-left: 10px;
-            }
-            .contact-us-form {
-                width: 400px;
-                margin: 10px;
-                border: solid;
-            }
-            .our-details {
-                line-height: 1.5rem;
-                background: #fffbfb;
-                margin: 15px;
-                border: solid;
-                width: auto;
-                overflow: hidden;
-            }
-           
-    }
-    @media screen and (max-width: 280px)  {
-        /*HOme/landing page*/    
-            #menu {
-                display: list-item;
-   
-            }  
-            .slogan {
-                width: 220px;
-                font-size: small;
-                margin-top: 0px;
-                font-weight: 500;
-                margin-left: 10px;
-            }
-            .slogan-bottom {
-                 font-size: medium;
-                 font-weight: bolder;
-                margin-left: 150px;
-                position: absolute;
-            }
-            .details-list > li > label + *, .country-list {
-                width: 200px;
-                padding: 10px;
-                margin: 15px;
-        }
-    }

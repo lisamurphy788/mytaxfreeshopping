@@ -114,6 +114,7 @@ The results are listed below;
 |ipad pro |Responsive      |Responsive    |Responsive       |Responsive|
 |Desktop 1024px |Responsive      |Responsive    |Responsive       |
 
+Click [here](https://vimeo.com/575861079/caae7680af) for a video link of the screen recording of the responsiveness outlined above.
 
 ## Browser Compatibility Testing
 ### **Browser type**
@@ -124,7 +125,7 @@ The results are listed below;
  |Appearance Good|Appearance Good|Appearance Good|Appearance Good|
  
 
-## User Stories 
+## User Stories Test 
 #### Site User
 - As a user of this site, I want to know how tax free shopping works so I can get a refund.
   * I can find out how it works from the how it works section. 

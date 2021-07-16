@@ -196,6 +196,20 @@ This page appears when a customer successfully submits the contact form. It incl
  - Refund calculator
  - Hamburger menu for mobile and tablet
 
+ ## Main Technologies Used
+- [Github](https://github.com/) Used for hosting the project
+- [Gitpod](https://gitpod.io) Used for developing the website 
+- [HTML](https://en.wikipedia.org/wiki/HTML5) Used to provide content and structure
+- [CSS](https://www.w3schools.com/css/) Used to provide styling
+- [Am I Responsive](http://ami.responsivedesign.is/) Used to show visual responsiveness
+- [Free Formatter](https://www.freeformatter.com) Used to clean up HTML and CSS 
+- [Googe Fonts](https://fonts.google.com/) Used for main fonts listed
+- [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) Used for icons for social media 
+- [Canva](https://www.canva.com/) Used to design Logo
+- [Figma](https://www.figma.com/) Used for wireframes
+- [Google Chrome Screen Reader Extension](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) Used to test screen reading
+- [Vimeo Screen Recorder](https://vimeo.com/) Used to record final testing of site for reponsiveness
+
  ## Testing
 
  The testing of this site can be found [here](TESTING.md)
@@ -269,11 +283,6 @@ The fonts used in this website was used from [Google fonts](https://fonts.google
 I used some radial gradients also which came from [CSSGradiend](https://cssgradient.io/)
 
 I used Freeformater to run my HTML through for cleaning and indentation. [Free Formatter](https://www.freeformatter.com/)
-
-### Main Technologies Used
-- Github/Gitpod
-- HTML
-- CSS
 
 
 ### Acknowledgments

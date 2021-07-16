@@ -23,6 +23,7 @@ No Errors
 ### Faq Page
 |22 issues reported| google maps | inline styling|one Warning -  styling choice|
 | ---                     | ---         | ---    | ---                        |
+
 Before Fix's
 ![faqvalidation](testing/testingimages/validatortestingfaqafterfix.PNG)
 
@@ -33,6 +34,7 @@ After Fix's
 
 |Number of issues reported| google maps | inline styling| one Warning - styling choice|
 | ---                     | ---         | ---    | ---                        |
+
 Before Fix's
 ![contactvalidation](testing/testingimages/contactvalidatortestafter.PNG)
 
